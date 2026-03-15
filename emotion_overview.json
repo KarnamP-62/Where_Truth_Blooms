@@ -1,0 +1,210 @@
+{
+  "Rigveda": [
+    {
+      "emotion": "unity",
+      "count": 5,
+      "percentage": 19.2
+    },
+    {
+      "emotion": "reverence",
+      "count": 3,
+      "percentage": 11.5
+    },
+    {
+      "emotion": "understanding",
+      "count": 3,
+      "percentage": 11.5
+    },
+    {
+      "emotion": "transcendence",
+      "count": 3,
+      "percentage": 11.5
+    },
+    {
+      "emotion": "bliss",
+      "count": 2,
+      "percentage": 7.7
+    },
+    {
+      "emotion": "detachment",
+      "count": 2,
+      "percentage": 7.7
+    },
+    {
+      "emotion": "confusion",
+      "count": 2,
+      "percentage": 7.7
+    },
+    {
+      "emotion": "wisdom",
+      "count": 2,
+      "percentage": 7.7
+    },
+    {
+      "emotion": "devotion",
+      "count": 2,
+      "percentage": 7.7
+    },
+    {
+      "emotion": "wonder",
+      "count": 1,
+      "percentage": 3.8
+    }
+  ],
+  "Yajurveda": [
+    {
+      "emotion": "wisdom",
+      "count": 37,
+      "percentage": 14.6
+    },
+    {
+      "emotion": "unity",
+      "count": 36,
+      "percentage": 14.2
+    },
+    {
+      "emotion": "understanding",
+      "count": 33,
+      "percentage": 13.0
+    },
+    {
+      "emotion": "detachment",
+      "count": 22,
+      "percentage": 8.7
+    },
+    {
+      "emotion": "devotion",
+      "count": 19,
+      "percentage": 7.5
+    },
+    {
+      "emotion": "reverence",
+      "count": 16,
+      "percentage": 6.3
+    },
+    {
+      "emotion": "wonder",
+      "count": 15,
+      "percentage": 5.9
+    },
+    {
+      "emotion": "transcendence",
+      "count": 15,
+      "percentage": 5.9
+    },
+    {
+      "emotion": "confusion",
+      "count": 14,
+      "percentage": 5.5
+    },
+    {
+      "emotion": "liberation",
+      "count": 13,
+      "percentage": 5.1
+    }
+  ],
+  "Samaveda": [
+    {
+      "emotion": "understanding",
+      "count": 14,
+      "percentage": 15.2
+    },
+    {
+      "emotion": "wisdom",
+      "count": 14,
+      "percentage": 15.2
+    },
+    {
+      "emotion": "confusion",
+      "count": 9,
+      "percentage": 9.8
+    },
+    {
+      "emotion": "reverence",
+      "count": 7,
+      "percentage": 7.6
+    },
+    {
+      "emotion": "devotion",
+      "count": 7,
+      "percentage": 7.6
+    },
+    {
+      "emotion": "liberation",
+      "count": 7,
+      "percentage": 7.6
+    },
+    {
+      "emotion": "determination",
+      "count": 7,
+      "percentage": 7.6
+    },
+    {
+      "emotion": "detachment",
+      "count": 6,
+      "percentage": 6.5
+    },
+    {
+      "emotion": "wonder",
+      "count": 4,
+      "percentage": 4.3
+    },
+    {
+      "emotion": "peace",
+      "count": 4,
+      "percentage": 4.3
+    }
+  ],
+  "Atharvaveda": [
+    {
+      "emotion": "unity",
+      "count": 23,
+      "percentage": 19.0
+    },
+    {
+      "emotion": "transcendence",
+      "count": 18,
+      "percentage": 14.9
+    },
+    {
+      "emotion": "wisdom",
+      "count": 17,
+      "percentage": 14.0
+    },
+    {
+      "emotion": "devotion",
+      "count": 8,
+      "percentage": 6.6
+    },
+    {
+      "emotion": "serenity",
+      "count": 8,
+      "percentage": 6.6
+    },
+    {
+      "emotion": "detachment",
+      "count": 7,
+      "percentage": 5.8
+    },
+    {
+      "emotion": "understanding",
+      "count": 7,
+      "percentage": 5.8
+    },
+    {
+      "emotion": "reverence",
+      "count": 6,
+      "percentage": 5.0
+    },
+    {
+      "emotion": "peace",
+      "count": 6,
+      "percentage": 5.0
+    },
+    {
+      "emotion": "confusion",
+      "count": 5,
+      "percentage": 4.1
+    }
+  ]
+}

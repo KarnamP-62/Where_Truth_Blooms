@@ -1,0 +1,210 @@
+{
+  "Rigveda": [
+    {
+      "word": "self",
+      "frequency": 13,
+      "rank": 1
+    },
+    {
+      "word": "knowledge",
+      "frequency": 4,
+      "rank": 2
+    },
+    {
+      "word": "nature",
+      "frequency": 3,
+      "rank": 3
+    },
+    {
+      "word": "sage",
+      "frequency": 3,
+      "rank": 4
+    },
+    {
+      "word": "supreme",
+      "frequency": 3,
+      "rank": 5
+    },
+    {
+      "word": "brahman",
+      "frequency": 3,
+      "rank": 6
+    },
+    {
+      "word": "indra",
+      "frequency": 3,
+      "rank": 7
+    },
+    {
+      "word": "prarabdha",
+      "frequency": 3,
+      "rank": 8
+    },
+    {
+      "word": "salutations",
+      "frequency": 2,
+      "rank": 9
+    },
+    {
+      "word": "make",
+      "frequency": 2,
+      "rank": 10
+    }
+  ],
+  "Yajurveda": [
+    {
+      "word": "brahman",
+      "frequency": 53,
+      "rank": 1
+    },
+    {
+      "word": "nature",
+      "frequency": 30,
+      "rank": 2
+    },
+    {
+      "word": "non",
+      "frequency": 24,
+      "rank": 3
+    },
+    {
+      "word": "bliss",
+      "frequency": 24,
+      "rank": 4
+    },
+    {
+      "word": "yajur",
+      "frequency": 23,
+      "rank": 5
+    },
+    {
+      "word": "without",
+      "frequency": 19,
+      "rank": 6
+    },
+    {
+      "word": "supreme",
+      "frequency": 19,
+      "rank": 7
+    },
+    {
+      "word": "alone",
+      "frequency": 18,
+      "rank": 8
+    },
+    {
+      "word": "knowledge",
+      "frequency": 18,
+      "rank": 9
+    },
+    {
+      "word": "great",
+      "frequency": 17,
+      "rank": 10
+    }
+  ],
+  "Samaveda": [
+    {
+      "word": "free",
+      "frequency": 17,
+      "rank": 1
+    },
+    {
+      "word": "desire",
+      "frequency": 11,
+      "rank": 2
+    },
+    {
+      "word": "sir",
+      "frequency": 11,
+      "rank": 3
+    },
+    {
+      "word": "fire",
+      "frequency": 10,
+      "rank": 4
+    },
+    {
+      "word": "without",
+      "frequency": 10,
+      "rank": 5
+    },
+    {
+      "word": "revered",
+      "frequency": 9,
+      "rank": 6
+    },
+    {
+      "word": "son",
+      "frequency": 8,
+      "rank": 7
+    },
+    {
+      "word": "non",
+      "frequency": 8,
+      "rank": 8
+    },
+    {
+      "word": "down",
+      "frequency": 8,
+      "rank": 9
+    },
+    {
+      "word": "jabala",
+      "frequency": 8,
+      "rank": 10
+    }
+  ],
+  "Atharvaveda": [
+    {
+      "word": "knowledge",
+      "frequency": 24,
+      "rank": 1
+    },
+    {
+      "word": "brahman",
+      "frequency": 19,
+      "rank": 2
+    },
+    {
+      "word": "tat",
+      "frequency": 19,
+      "rank": 3
+    },
+    {
+      "word": "mind",
+      "frequency": 15,
+      "rank": 4
+    },
+    {
+      "word": "having",
+      "frequency": 13,
+      "rank": 5
+    },
+    {
+      "word": "world",
+      "frequency": 13,
+      "rank": 6
+    },
+    {
+      "word": "self",
+      "frequency": 12,
+      "rank": 7
+    },
+    {
+      "word": "born",
+      "frequency": 11,
+      "rank": 8
+    },
+    {
+      "word": "atharva",
+      "frequency": 10,
+      "rank": 9
+    },
+    {
+      "word": "non",
+      "frequency": 9,
+      "rank": 10
+    }
+  ]
+}

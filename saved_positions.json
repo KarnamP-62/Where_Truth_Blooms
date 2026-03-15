@@ -1,0 +1,2210 @@
+{
+  "108 Upanishads": {
+    "x": 2.864486446745935,
+    "y": 0
+  },
+  "Rigveda": {
+    "x": 0.1646802600672069,
+    "y": 60.473600000000005
+  },
+  "Yajurveda": {
+    "x": 1.9634954084936207,
+    "y": 60.473600000000005
+  },
+  "Samaveda": {
+    "x": 4.174011207088052,
+    "y": 60.473600000000005
+  },
+  "Atharvaveda": {
+    "x": 5.564292633424664,
+    "y": 60.473600000000005
+  },
+  "The Upanishad": {
+    "x": 0.6242760396192866,
+    "y": 92.38507238726393
+  },
+  "Atma-Bodha Upanishad": {
+    "x": 0.552511302219594,
+    "y": 100.98574948971759
+  },
+  "Bahvricha Upanishad": {
+    "x": 0.4593217527831499,
+    "y": 99.24656971402084
+  },
+  "Brahmana Upanishad": {
+    "x": 5.9975314165266385,
+    "y": 113.56179639297713
+  },
+  "Bindu Upanishad": {
+    "x": 1.3571911808288712,
+    "y": 179.06971156507734
+  },
+  "Nirvana Upanishad": {
+    "x": 0.28502352703939654,
+    "y": 107.8007652173913
+  },
+  "Lakshmi Upanishad": {
+    "x": 0.3645449553515092,
+    "y": 103.77977452278452
+  },
+  "Adhyatma Upanishad": {
+    "x": 3.0056517708107804,
+    "y": 95.92497902006549
+  },
+  "Brihadaranyaka Upanishad": {
+    "x": 5.491453287625707,
+    "y": 109.11540869565218
+  },
+  "Isavasya Upanishad": {
+    "x": 0.8935373438969538,
+    "y": 111.6396058753344
+  },
+  "Jabala Upanishad": {
+    "x": 5.073418781301259,
+    "y": 107.8007652173913
+  },
+  "Mantrika Upanishad": {
+    "x": 0.9362245613212281,
+    "y": 70.77882169123754
+  },
+  "Atharva Upanishad": {
+    "x": 5.14760594869599,
+    "y": 111.38330934210923
+  },
+  "Muktika Upanishad": {
+    "x": 0.8357057966033218,
+    "y": 84.93198219752085
+  },
+  "Ten Upanishad": {
+    "x": 1.007376282417099,
+    "y": 102.9057899245713
+  },
+  "Nineteen Upanishad": {
+    "x": 0.857678474641653,
+    "y": 186.427577359145
+  },
+  "Thirty-One Upanishad": {
+    "x": 0.9061892747625961,
+    "y": 188.01787574589815
+  },
+  "Niralamba Upanishad": {
+    "x": 0.9525385797377002,
+    "y": 191.43699120076036
+  },
+  "Paingala Upanishad": {
+    "x": 1.01580059945631,
+    "y": 185.90363525224566
+  },
+  "Paramahamsa Upanishad": {
+    "x": 1.0737766148081669,
+    "y": 186.57406464994
+  },
+  "Satyayaniya Upanishad": {
+    "x": 1.1263405838771001,
+    "y": 188.29371099428678
+  },
+  "Subala Upanishad": {
+    "x": 1.182450283978341,
+    "y": 184.75768346675056
+  },
+  "Sara Upanishad": {
+    "x": 1.2295136401512716,
+    "y": 176.15981834686366
+  },
+  "Yajnavalkya Upanishad": {
+    "x": 1.2708424494161754,
+    "y": 175.8517602982694
+  },
+  "Akshi Upanishad": {
+    "x": 1.3165365580420407,
+    "y": 178.7467526977763
+  },
+  "Amrita-Nada Upanishad": {
+    "x": 1.391683979358837,
+    "y": 173.78009552304889
+  },
+  "Avadhuta Upanishad": {
+    "x": 1.4410743574476188,
+    "y": 177.49130006848222
+  },
+  "Brahma Upanishad": {
+    "x": 1.4896704230881384,
+    "y": 184.60715479092352
+  },
+  "Dhyana-Bindu Upanishad": {
+    "x": 1.5432477424541238,
+    "y": 180.06832481033413
+  },
+  "Ekakshara Upanishad": {
+    "x": 1.6684160817297018,
+    "y": 174.83238144005247
+  },
+  "Kaivalya Upanishad": {
+    "x": 1.7205109873350686,
+    "y": 167.8779366087158
+  },
+  "Rudra Upanishad": {
+    "x": 1.7659135249346871,
+    "y": 154.9399935458886
+  },
+  "Katha Upanishad": {
+    "x": 1.8717668857489083,
+    "y": 104.70664544335284
+  },
+  "Katharudra Upanishad": {
+    "x": 2.1490032428632473,
+    "y": 109.85809756226439
+  },
+  "Narayana Upanishad": {
+    "x": 2.0014985454322067,
+    "y": 127.52041739130435
+  },
+  "Hridaya Upanishad": {
+    "x": 2.2675205040023103,
+    "y": 111.74469565217392
+  },
+  "Sarasvati-Rahasya Upanishad": {
+    "x": 2.368862202505207,
+    "y": 110.43005217391304
+  },
+  "Skanda Upanishad": {
+    "x": 2.438534620225948,
+    "y": 108.45808695652174
+  },
+  "Rahasya Upanishad": {
+    "x": 2.4828716133209654,
+    "y": 107.8007652173913
+  },
+  "Svetasvatara Upanishad": {
+    "x": 2.5525440310417067,
+    "y": 111.08737391304348
+  },
+  "Taittiriya Upanishad": {
+    "x": 2.6982227226396205,
+    "y": 115.68862608695652
+  },
+  "Tejo-Bindu Upanishad": {
+    "x": 3.0149155304611726,
+    "y": 128.8350608695652
+  },
+  "Varaha Upanishad": {
+    "x": 3.141592653589793,
+    "y": 105.04000000000002
+  },
+  "Yoga-Kundalini Upanishad": {
+    "x": 3.317129347388834,
+    "y": 125.9758770558872
+  },
+  "Sikha Upanishad": {
+    "x": 2.8362483201896906,
+    "y": 116.42543364746383
+  },
+  "Tattva Upanishad": {
+    "x": 3.390474435337995,
+    "y": 121.79261718183088
+  },
+  "Aruni Upanishad": {
+    "x": 3.712206559947365,
+    "y": 112.9318449331277
+  },
+  "Avyakta Upanishad": {
+    "x": 3.880414357219643,
+    "y": 106.91735874029064
+  },
+  "Chandogya Upanishad": {
+    "x": 3.9333246731436726,
+    "y": 135.40827826086957
+  },
+  "Darsana Upanishad": {
+    "x": 4.046628725448012,
+    "y": 118.2532942458687
+  },
+  "Kena Upanishad": {
+    "x": 3.6359547011795197,
+    "y": 115.9187715600886
+  },
+  "Maha Upanishad": {
+    "x": 4.213430812985469,
+    "y": 115.02348281981381
+  },
+  "Maitrayani Upanishad": {
+    "x": 4.473229446721901,
+    "y": 118.36909055999375
+  },
+  "Maitreya Upanishad": {
+    "x": 4.3748878211379365,
+    "y": 102.79942412290062
+  },
+  "Sannyasa Upanishad": {
+    "x": 4.5581076136477465,
+    "y": 117.39438487423493
+  },
+  "Vajrasuchika Upanishad": {
+    "x": 4.6407261946834115,
+    "y": 112.28820775130397
+  },
+  "Annapurna Upanishad": {
+    "x": 4.851733815826172,
+    "y": 116.34594782608696
+  },
+  "Atharvasikha Upanishad": {
+    "x": 4.94828413057327,
+    "y": 111.07619727016225
+  },
+  "Atharvasiras Upanishad": {
+    "x": 4.769634059926324,
+    "y": 104.17063693767068
+  },
+  "Atma Upanishad": {
+    "x": 5.0227479320498105,
+    "y": 109.11540869565218
+  },
+  "Gopala-Tapaniya Upanishad": {
+    "x": 5.250766753681328,
+    "y": 119.63255652173913
+  },
+  "Krishna Upanishad": {
+    "x": 5.333411994361062,
+    "y": 108.20333451423758
+  },
+  "Mandukya Upanishad": {
+    "x": 5.428114726061397,
+    "y": 109.11540869565218
+  },
+  "Mundaka Upanishad": {
+    "x": 5.5611257053464485,
+    "y": 109.7727304347826
+  },
+  "Parivrajaka Upanishad": {
+    "x": 5.626426077850498,
+    "y": 137.58009158304844
+  },
+  "Second Upanishad": {
+    "x": 5.699766323174268,
+    "y": 116.17762951618523
+  },
+  "Tapaniya Upanishad": {
+    "x": 5.764885352776245,
+    "y": 123.13180580175049
+  },
+  "Para-Brahma Upanishad": {
+    "x": 5.855822772287699,
+    "y": 135.1116634491634
+  },
+  "Paramahamsa-Parivrajaka Upanishad": {
+    "x": 5.938614308373312,
+    "y": 139.13849790766034
+  },
+  "Prasna Upanishad": {
+    "x": 6.00668555623527,
+    "y": 146.52549812234045
+  },
+  "Rama-Rahasya Upanishad": {
+    "x": 6.082319193043272,
+    "y": 115.2777584792487
+  },
+  "Rama-rahasya Upanishad": {
+    "x": 6.07108649156912,
+    "y": 147.25991172073952
+  },
+  "Sandilya Upanishad": {
+    "x": 6.156508184050965,
+    "y": 115.03130434782608
+  },
+  "Sarabha Upanishad": {
+    "x": 0.010420631546658399,
+    "y": 95.96521036292265
+  },
+  "Mahanarayana Upanishad": {
+    "x": 0.016132837082131868,
+    "y": 123.9761331869969
+  },
+  "Tapini Upanishad": {
+    "x": 6.2528823701705,
+    "y": 132.0206105121469
+  },
+  "Then one must say: “Salutations unto the 36 Tattvas (the fundamental categories)” and invoke the pre...": {
+    "x": 0.617942183462854,
+    "y": 108.87991580327922
+  },
+  "Salutations to you of the nature of all Tattvas, all knowledge, of the nature of all powers, of the ...": {
+    "x": 0.6306098957757174,
+    "y": 108.87991580327922
+  },
+  "I am pure joy; purity, sole, ever shining, beginningless; I have ascertained the highest Truth.": {
+    "x": 0.5525113022195938,
+    "y": 125.17518948971761
+  },
+  "Other than Her is untruth, non-self.": {
+    "x": 0.4466540404702879,
+    "y": 123.43600971402076
+  },
+  "The sole Truth is the thing named ‘the Beautiful’.": {
+    "x": 0.45932175278315035,
+    "y": 123.43600971402076
+  },
+  "The fivefold form relinquished And effects like space transcended, Remains the one, the great being,...": {
+    "x": 0.4719894650960119,
+    "y": 123.43600971402076
+  },
+  "When he (came and) sat, Gargyayani asked him: ‘Son of Gautama !": {
+    "x": 0.08234013003360345,
+    "y": 137.24877913043477
+  },
+  "So strive, O seasons, to make me immortal, by that truth, by that austerity, I am a season.": {
+    "x": 0.09500784234646552,
+    "y": 137.24877913043477
+  },
+  "Self as Truth; it is the Self of all and is Brahman.": {
+    "x": 0.10767555465932759,
+    "y": 137.24877913043477
+  },
+  "‘What is that, viz., the Real ?’ What is other than the gods (sense-organs) and the vital breaths, t...": {
+    "x": 0.12034326697218965,
+    "y": 137.24877913043477
+  },
+  "This is expressed by the word satyam.": {
+    "x": 0.13301097928505173,
+    "y": 137.24877913043477
+  },
+  "But Indra did not depart from the truth, for Indra is truth.": {
+    "x": 0.1456786915979138,
+    "y": 137.24877913043477
+  },
+  "In the sun the great, in the moon the food, in the lightning truth, in thunder sound, in wind Indra ...": {
+    "x": 0.15834640391077587,
+    "y": 137.24877913043477
+  },
+  "Now, with reference to the self; in the mirror the reflection; in the shadow the double, in the echo...": {
+    "x": 0.17101411622363794,
+    "y": 137.24877913043477
+  },
+  "I meditate on him as the self of truth.": {
+    "x": 0.1836818285365,
+    "y": 137.24877913043477
+  },
+  "He who meditates on him thus becomes indeed the self of truth (of brilliance).": {
+    "x": 0.19634954084936207,
+    "y": 137.24877913043477
+  },
+  "I meditate on him as the self of truth, the self of lightning, the self of brightness.": {
+    "x": 0.20901725316222414,
+    "y": 137.24877913043477
+  },
+  "In its heart is situate the Janoloka; Tapoloka in its throat and the Satya-Loka in the centre of the...": {
+    "x": 0.2216849654750862,
+    "y": 132.64752695652174
+  },
+  "Even after Atma-Jnana (knowledge of Atman or Self) has awakened (in one), Prarabdha does not leave (...": {
+    "x": 0.23435267778794827,
+    "y": 132.64752695652174
+  },
+  "That (portion of the) Karma which is done in former births and called Prarabdha does not at all affe...": {
+    "x": 0.24702039010081034,
+    "y": 132.64752695652174
+  },
+  "As a person through illusion mistakes a rope for a serpent, so the fool not knowing Satya (the etern...": {
+    "x": 0.2596881024136724,
+    "y": 132.64752695652174
+  },
+  "Reflection (of the truths of the Vedanta) is their (emblematic-)staff.": {
+    "x": 0.2723558147265345,
+    "y": 131.9902052173913
+  },
+  "The Yoga accomplished by truth is the monastery.": {
+    "x": 0.28502352703939654,
+    "y": 131.9902052173913
+  },
+  "His conduct (of serving a primary Avadhuta) as a ship (to cross the 82 --- Page 83 --- RIG-VEDA ocea...": {
+    "x": 0.2976912393522586,
+    "y": 131.9902052173913
+  },
+  "II-12: Through unity with Self, prevent contact With others; so too, through Self’s being Oppose oug...": {
+    "x": 0.3582110991950789,
+    "y": 127.96921452278447
+  },
+  "Never again is sorrow for the sage, Rooted in Truth transcendent.": {
+    "x": 0.37087881150794044,
+    "y": 127.96921452278447
+  },
+  "Just as a pulled-up water-reed stays not still, even for a moment, so does Maya (ceaselessly) envelo...": {
+    "x": 2.992984058497918,
+    "y": 120.11441902006553
+  },
+  "He is characterised by omniscience, etc.; is tinged by transcendence, and is essentially Truth and s...": {
+    "x": 3.0056517708107804,
+    "y": 120.11441902006553
+  },
+  "He who has realized the truth of Brahman no longer transmigrates, as hitherto; if he does, this trut...": {
+    "x": 3.0183194831236424,
+    "y": 120.11441902006553
+  },
+  "‘All right’, (said the gods and) sat down around it.": {
+    "x": 0.4053667940115862,
+    "y": 156.31110956521738
+  },
+  "That righteousness is verily truth.": {
+    "x": 0.4180345063244483,
+    "y": 156.31110956521738
+  },
+  "Therefore they say about a person speaking of truth, ‘He speaks of righteousness’, or about a person...": {
+    "x": 0.43070221863731034,
+    "y": 156.31110956521738
+  },
+  "This immortal entity is covered by truth (the five elements): The vital force is the immortal entity...": {
+    "x": 0.4433699309501724,
+    "y": 156.31110956521738
+  },
+  "Its secret name (Upanishad) is ‘the Truth of Truth’.": {
+    "x": 0.4560376432630345,
+    "y": 156.31110956521738
+  },
+  "The vital force is truth, and It is the Truth of 145 --- Page 146 --- SUKLA-YAJUR-VEDA that.": {
+    "x": 0.46870535557589654,
+    "y": 156.31110956521738
+  },
+  "Now Its name: ‘The Truth of truth’.": {
+    "x": 0.4813730678887586,
+    "y": 156.31110956521738
+  },
+  "The vital force is truth, and It is the Truth of that.": {
+    "x": 0.4940407802016207,
+    "y": 156.31110956521738
+  },
+  "II-v-12: This truth is (like) honey to all beings, and all beings are (like) honey to this truth.": {
+    "x": 0.5067084925144828,
+    "y": 156.31110956521738
+  },
+  "(The same with) the shining immortal being who is in this truth, and the shining, immortal being ide...": {
+    "x": 0.5193762048273448,
+    "y": 156.31110956521738
+  },
+  "‘Who is his deity ?’ 'Truth (the eye),’ said he.": {
+    "x": 0.5320439171402069,
+    "y": 156.31110956521738
+  },
+  "‘On what does initiation rest ?’ ‘On truth.": {
+    "x": 0.544711629453069,
+    "y": 156.31110956521738
+  },
+  "Therefore do they say to one initiated, \"Speak the truth\"; for it is on truth that initiation rests’...": {
+    "x": 0.5573793417659311,
+    "y": 156.31110956521738
+  },
+  "‘On what does truth rest ?’ ‘On the heart’, said Yajnavalkya, ‘for one knows truth through the heart...": {
+    "x": 0.5700470540787931,
+    "y": 156.31110956521738
+  },
+  "It should be meditated upon as truth’.": {
+    "x": 0.5827147663916552,
+    "y": 156.31110956521738
+  },
+  "‘What is truth, Yajnavalkya?’ ‘’The eye itself, O Emperor’, said Yajnavalkya; if a person, O Emperor...": {
+    "x": 0.5953824787045172,
+    "y": 156.31110956521738
+  },
+  "‘Satyakama, the son of Jabala, has told me that the Manas (here, the moon) is Brahman’.": {
+    "x": 0.6080501910173793,
+    "y": 156.31110956521738
+  },
+  "V-iv-1: That (intellect-Brahman) was but this – Satya (gross and subtle) alone.": {
+    "x": 0.6207179033302413,
+    "y": 156.31110956521738
+  },
+  "He who knows this great, adorable, first-born (being) as the Satya-Brahman, conquers these worlds, a...": {
+    "x": 0.6333856156431035,
+    "y": 156.31110956521738
+  },
+  "That water produced Satya.": {
+    "x": 0.6460533279559655,
+    "y": 156.31110956521738
+  },
+  "Satya is Brahman.": {
+    "x": 0.6587210402688276,
+    "y": 156.31110956521738
+  },
+  "Those gods meditate upon Satya alone.": {
+    "x": 0.6713887525816896,
+    "y": 156.31110956521738
+  },
+  "This (name) ‘Satya’ consists of three syllables: ‘Sacrifice’ is one syllable, ‘Ti’ is another syllab...": {
+    "x": 0.6840564648945517,
+    "y": 156.31110956521738
+  },
+  "The first and last syllables are truth.": {
+    "x": 0.6967241772074138,
+    "y": 156.31110956521738
+  },
+  "In the middle is untruth.": {
+    "x": 0.7093918895202759,
+    "y": 156.31110956521738
+  },
+  "This untruth is enclosed on either side by truth.": {
+    "x": 0.7220596018331379,
+    "y": 156.31110956521738
+  },
+  "(Hence) there is a preponderance of truth.": {
+    "x": 0.734727314146,
+    "y": 156.31110956521738
+  },
+  "One who knows as above is never hurt by untruth.": {
+    "x": 0.747395026458862,
+    "y": 156.31110956521738
+  },
+  "V-v-2: That which is Satya is that sun – the being who is in that orb and the being who is in the ri...": {
+    "x": 0.7600627387717241,
+    "y": 156.31110956521738
+  },
+  "That again rests on truth.": {
+    "x": 0.7727304510845862,
+    "y": 156.31110956521738
+  },
+  "The eye is truth, for the 200 --- Page 201 --- SUKLA-YAJUR-VEDA eye is indeed truth.": {
+    "x": 0.7853981633974483,
+    "y": 156.31110956521738
+  },
+  "That truth rests on strength.": {
+    "x": 0.7980658757103103,
+    "y": 156.31110956521738
+  },
+  "(Hence) truth rests on the vital force.": {
+    "x": 0.8107335880231724,
+    "y": 156.31110956521738
+  },
+  "Therefore they say strength is more powerful than truth.": {
+    "x": 0.8234013003360345,
+    "y": 156.31110956521738
+  },
+  "V-xv-1: The face (nature) of Satya (Brahman) is hidden (as it were) with a golden vessel.": {
+    "x": 0.8360690126488965,
+    "y": 156.31110956521738
+  },
+  "O Pusan (nourisher of the world – the sun), remove it, so that I, whose reality is Satya, may see (t...": {
+    "x": 0.8487367249617587,
+    "y": 156.31110956521738
+  },
+  "VI-ii-15: Those who know this as such, and those others who meditate with faith upon the Satya-Brahm...": {
+    "x": 0.8614044372746207,
+    "y": 156.31110956521738
+  },
+  "VI-iii-11: Janaki, the son of Ayasthuna, again taught this to Satyakama, the son of Jabala, and said...": {
+    "x": 0.8740721495874828,
+    "y": 156.31110956521738
+  },
+  "VI-iii-12: And Satyakama, the son of Jabala, in his turn, taught this to his pupils and said, ‘Shoul...": {
+    "x": 0.8867398619003448,
+    "y": 156.31110956521738
+  },
+  "Sanatkumara replied thus: “Hear, O Gautama, that Tattva as expounded by Parvati after inquiring into...": {
+    "x": 0.8994075742132069,
+    "y": 156.31110956521738
+  },
+  "The face of the Truth (ie., Purusha in the solar orb) is veiled by a bright vessel.": {
+    "x": 0.8872034877405228,
+    "y": 135.82904587533437
+  },
+  "Mayst thou unveil it, O Sun, so as to be perceived by me 223 --- Page 224 --- SUKLA-YAJUR-VEDA whose...": {
+    "x": 0.8998712000533844,
+    "y": 135.82904587533437
+  },
+  "unclad), unaffected by the pairs (of opposites, such as heat and cold, pleasure and pain), accepting...": {
+    "x": 0.7981862842517703,
+    "y": 136.6116869086968
+  },
+  "The great Muni Yajnavalkya went to Aditya-Loka (the sun’s world) and saluting him (the Purusha of th...": {
+    "x": 0.8108539965646319,
+    "y": 136.6116869086968
+  },
+  "The removal of these can be affected respectively by absence of Sankalpa, forgiveness, moderate food...": {
+    "x": 1.5536684473583093,
+    "y": 204.2907492678674
+  },
+  "In order to cross the ocean of Samsara where sleep and fear are the serpents, injury, etc., are the ...": {
+    "x": 1.566336159671171,
+    "y": 204.2907492678674
+  },
+  "Then he becomes one with Tattva- Akasa, lighted with the brightness which is the highest and the bes...": {
+    "x": 1.5790038719840334,
+    "y": 204.2907492678674
+  },
+  "The Jiva which is the twenty-fifth Tattva, having abandoned the twenty-four Tattvas, becomes a Jivan...": {
+    "x": 1.5916715842968958,
+    "y": 204.2907492678674
+  },
+  "In its midst, there arises the manifestation of Tattva.": {
+    "x": 1.6043392966097574,
+    "y": 204.2907492678674
+  },
+  "Then having acquired the four Sadhanas (means to salvation) he attains, in the middle of the lotus o...": {
+    "x": 1.6170070089226198,
+    "y": 204.2907492678674
+  },
+  "This alone is the highest truth.": {
+    "x": 1.6296747212354814,
+    "y": 204.2907492678674
+  },
+  "That Yogi who meditates on that indestructible matter which shines like God’s grace in the center of...": {
+    "x": 1.6423424335483439,
+    "y": 204.2907492678674
+  },
+  "158-159 One has to understand that the realization of the universal truth of the unity of Jeevathma ...": {
+    "x": 1.6550101458612054,
+    "y": 204.2907492678674
+  },
+  "The adepts in Sama-Veda singing Brhatsama and Rathantara also (reaffirm this truth).": {
+    "x": 0.9362245613212281,
+    "y": 85.89722169123758
+  },
+  "At the end of this Samadhi, Hanuman asked with devotion, ‘O Rama, you are the supreme being, of the ...": {
+    "x": 0.8177929064729693,
+    "y": 221.54749430739332
+  },
+  "Yogatattva 42.": {
+    "x": 0.8357057966033216,
+    "y": 100.05038219752086
+  },
+  "Satyayani 100.": {
+    "x": 0.9947085701042375,
+    "y": 127.09522992457133
+  },
+  "Satyayani 19.": {
+    "x": 1.007376282417099,
+    "y": 127.09522992457133
+  },
+  "Yogatattva 259 --- Page 260 --- SUKLA-YAJUR-VEDA 17.": {
+    "x": 1.0200439947299615,
+    "y": 127.09522992457133
+  },
+  "\"May we hear with our ears the auspicious truths of the Vedanta\" [Bhadram-Karnebhih…] – and so on: T...": {
+    "x": 0.8576784746416533,
+    "y": 210.617017359145
+  },
+  "Then with impurity ripened (and destroyed) and Truth understood, you should give up even the good im...": {
+    "x": 0.9061892747625959,
+    "y": 212.20731574589814
+  },
+  "It was the eternally free, immutable, everlastingly one, secondless Brahman, full of Truth, Knowledg...": {
+    "x": 0.9525385797377,
+    "y": 215.62643120076038
+  },
+  "Vishva (is) the self of knowledge, a reflection of sat, the empirical (being), having conceit in the...": {
+    "x": 0.9714636063612927,
+    "y": 206.91884775754724
+  },
+  "Texts like Tattvamasi declare the identity with Brahman of the real Jiva concealed by ignorance and ...": {
+    "x": 0.9841313186741552,
+    "y": 206.91884775754724
+  },
+  "If duty be there, he is no knower of Truth.": {
+    "x": 0.9967990309870167,
+    "y": 206.91884775754724
+  },
+  "This dissolution he knows in truth as of the pot-space (in the infinite space).": {
+    "x": 1.0094667432998792,
+    "y": 206.91884775754724
+  },
+  "Avoiding the labyrinths of Shastras, meditate on the Truth (alone).": {
+    "x": 1.0221344556127407,
+    "y": 206.91884775754724
+  },
+  "These (are valid) only till Truth is won.": {
+    "x": 1.0348021679256032,
+    "y": 206.91884775754724
+  },
+  "OM-Truth – This is the secret teaching.": {
+    "x": 1.0474698802384648,
+    "y": 206.91884775754724
+  },
+  "Verily, such a one rests in the ever-pure Brahman; he is verily the Brahman inculcated in the Vedas ...": {
+    "x": 1.0601375925513272,
+    "y": 206.91884775754724
+  },
+  "298 --- Page 299 --- SUKLA-YAJUR-VEDA 24.Satyayaniya Upanishad Om !": {
+    "x": 1.073776614808168,
+    "y": 201.69246464994
+  },
+  "A wise-man knowing this (truth) and thus a knower of Brahman shall have this consciousness.": {
+    "x": 1.1200067277206693,
+    "y": 203.41211099428676
+  },
+  "307 --- Page 308 --- SUKLA-YAJUR-VEDA Here ends the Satyayaniyopanishad belonging to the Sukla-Yajur...": {
+    "x": 1.1326744400335318,
+    "y": 203.41211099428676
+  },
+  "One can achieve (realize) this only by means of truth, charity, undying austerity, celibacy, detachm...": {
+    "x": 1.1697825716654786,
+    "y": 199.87608346675057
+  },
+  "Viraja, Sudarsana, Jita, Saumya, Amogha, Kumara, Amrita, Satya, Madhyama, Nasira, Sisura, Asura, Sur...": {
+    "x": 1.182450283978341,
+    "y": 199.87608346675057
+  },
+  "One should remain like a tree; he shall not become angry even when cut down, or tremble, like stone,...": {
+    "x": 1.1951179962912029,
+    "y": 199.87608346675057
+  },
+  "All this is the explanation of the letter Om, which is the past, the present and future and which is...": {
+    "x": 1.2105120716819786,
+    "y": 191.27821834686364
+  },
+  "Hari Om Tat Sat !": {
+    "x": 3.336130915858127,
+    "y": 150.16531705588736
+  },
+  "(That which is) Satya (the Reality), Jnana (Knowledge), Ananta (the Infinite), Ananda (Bliss), is Br...": {
+    "x": 1.2358474963077026,
+    "y": 191.27821834686364
+  },
+  "The Reality is the indestructible; That which, when name, space, time, substance, and causation are ...": {
+    "x": 1.2485152086205649,
+    "y": 191.27821834686364
+  },
+  "unclad) unaffected by pairs (of opposites, such as heat and cold, pleasure and pain); accepting noth...": {
+    "x": 1.2708424494161754,
+    "y": 190.9701602982694
+  },
+  "With a mind disciplined through devotion to the Shastras, teacher, and the company of the virtuous, ...": {
+    "x": 1.2975349895727475,
+    "y": 193.8651526977764
+  },
+  "Fixing his steady mind on the truthful import of the Shastras and busy with the recitation of spirit...": {
+    "x": 1.3102027018856095,
+    "y": 193.8651526977764
+  },
+  "For speech and import have been flung far away in the light of the truth, ‘I am no agent; the agent ...": {
+    "x": 1.3228704141984715,
+    "y": 193.8651526977764
+  },
+  "Therefore, thou sinless one, renouncing everything, be devoted to Truth.": {
+    "x": 1.335538126511334,
+    "y": 193.8651526977764
+  },
+  "The highest Truth is that (pure consciousness) which realises, “There is neither control of the mind...": {
+    "x": 1.3571911808288712,
+    "y": 194.18811156507732
+  },
+  "The Avadhuta is so called because he is immortal [akshara]; he is the greatest [varenya]; he has dis...": {
+    "x": 1.391683979358837,
+    "y": 188.89849552304887
+  },
+  "There is neither seeker after liberation nor any liberated; this indeed is the ultimate Truth.": {
+    "x": 1.4347405012911878,
+    "y": 192.60970006848228
+  },
+  "Om, Truth.": {
+    "x": 1.4474082136040498,
+    "y": 192.60970006848228
+  },
+  "There the Devas, the Rishis, the Pitris have no control, for being fully awakened, one becomes the k...": {
+    "x": 1.4706688546188451,
+    "y": 199.7255547909235
+  },
+  "The Yogi who is the knower of all Yogas and the seer of truth should put on this thread.": {
+    "x": 1.4833365669317071,
+    "y": 199.7255547909235
+  },
+  "As in the oil in the sesamum seed, the butter in the curd, water in the flowing waves, and fire in t...": {
+    "x": 1.4960042792445694,
+    "y": 199.7255547909235
+  },
+  "The knowledge that the Para Brhaman is oneself and the rise of Sathyo Jatam (birth of truth) is Para...": {
+    "x": 1.5086719915574314,
+    "y": 199.7255547909235
+  },
+  "The Jiva (ego) urged to actions by its past virtuous and sinful Karmas whirls about in this great Ch...": {
+    "x": 1.5432477424541238,
+    "y": 195.18672481033423
+  },
+  "Thou art He whom in the sacrifices the knowers of Brahman adore with Vedic Songs, formulas and rites...": {
+    "x": 1.6684160817297018,
+    "y": 189.9507814400525
+  },
+  "the truth in respect to the rule of the Tripundram (a sect mark consisting of three streaks) and wha...": {
+    "x": 1.7205109873350686,
+    "y": 182.9963366087158
+  },
+  "Om Satyam.": {
+    "x": 1.7595796687782563,
+    "y": 170.05839354588858
+  },
+  "O, thou art rooted in truth.": {
+    "x": 1.8210960364974598,
+    "y": 128.89608544335277
+  },
+  "As mover (sun), He dwells in heaven; (as air), He pervades everything and dwells in inter-space; as ...": {
+    "x": 1.8337637488103218,
+    "y": 128.89608544335277
+  },
+  "Without the grace of a good (perfect) guru, the abandonment of sensual objects is very difficult of ...": {
+    "x": 1.8464314611231842,
+    "y": 128.89608544335277
+  },
+  "I am that Para-Brahman, which is the eternal, the immaculate, the free, the one, the undivided bliss...": {
+    "x": 1.8590991734360458,
+    "y": 128.89608544335277
+  },
+  "Know all to be happiness through the annihilation of sorrow and all to be of the nature of Sat (be-n...": {
+    "x": 1.8717668857489083,
+    "y": 128.89608544335277
+  },
+  "Practise always silence ‘I am (viz., that you yourself are) Para- Brahman’ which is truth and absolu...": {
+    "x": 1.8844345980617694,
+    "y": 128.89608544335277
+  },
+  "Always practise silence – I am (viz., you are) the Brahman, that is the full, the secondless, the un...": {
+    "x": 1.8971023103746318,
+    "y": 128.89608544335277
+  },
+  "That which always is and that which preserves the same nature during the three periods of time, unaf...": {
+    "x": 1.9097700226874934,
+    "y": 128.89608544335277
+  },
+  "I am Brahman that is Chit, Sat and Ananda alone and that is Janardana (Vishnu).": {
+    "x": 1.922437735000357,
+    "y": 128.89608544335277
+  },
+  "That Brahman, which is without a second, and which is Truth, Knowledge and Happiness, is the object ...": {
+    "x": 2.1363355305503853,
+    "y": 134.04753756226452
+  },
+  "By realizing directly this Brahman, which is named the Support (the Tail puccha), which is of the na...": {
+    "x": 2.1490032428632473,
+    "y": 134.04753756226452
+  },
+  "Realizing that Brahman which is Bliss, without a second, devoid of attributes, the solidarity of tru...": {
+    "x": 2.161670955176109,
+    "y": 134.04753756226452
+  },
+  "Whosoever among created beings sees that Brahman named Rita or ‘the True’, unintermittently pervadin...": {
+    "x": 1.7988151484264139,
+    "y": 151.70985739130435
+  },
+  "Being such, grant us food, and great and beautiful insight (of the Supreme Truth).": {
+    "x": 1.811482860739276,
+    "y": 151.70985739130435
+  },
+  "Truth is austerity.": {
+    "x": 1.824150573052138,
+    "y": 151.70985739130435
+  },
+  "XII-6: That which is the sun who abides in the clear sky, is the Vasu (the air that moves) in the mi...": {
+    "x": 1.836818285365,
+    "y": 151.70985739130435
+  },
+  "XV-1: The sun alone is verily all these: -- energy, splendour, strength, renown, sight, hearing, bod...": {
+    "x": 1.8494859976778621,
+    "y": 151.70985739130435
+  },
+  "Gods worship Him as Tapas and Truth.": {
+    "x": 1.9381599838678965,
+    "y": 151.70985739130435
+  },
+  "Truth is water.": {
+    "x": 1.8748214223035862,
+    "y": 151.70985739130435
+  },
+  "Further whatever sinful deed has been committed by me, all that and myself I offer as an oblation in...": {
+    "x": 1.8874891346164482,
+    "y": 151.70985739130435
+  },
+  "Thou art the Truth denoted by the Pranava.": {
+    "x": 1.9001568469293104,
+    "y": 151.70985739130435
+  },
+  "Om Abode of Truth.": {
+    "x": 1.9128245592421724,
+    "y": 151.70985739130435
+  },
+  "He is the Truth.": {
+    "x": 1.9254922715550344,
+    "y": 151.70985739130435
+  },
+  "XXXIX-4: To me, who is the devotee of the Supreme Truth let the wind blow sweetly.": {
+    "x": 1.9508276961807587,
+    "y": 151.70985739130435
+  },
+  "XXXX-3: That which is the sun who abides in the clear sky, is the Vasu (the air that moves) in the m...": {
+    "x": 1.9634954084936207,
+    "y": 151.70985739130435
+  },
+  "XLI-1: May the all-penetrating goddess of intellect who is beneficial, favourably disposed to, and d...": {
+    "x": 1.9761631208064827,
+    "y": 151.70985739130435
+  },
+  "(I am the Truth expressed by Pranava.": {
+    "x": 1.9888308331193447,
+    "y": 151.70985739130435
+  },
+  "Om that is the Supreme Truth.": {
+    "x": 2.0014985454322067,
+    "y": 151.70985739130435
+  },
+  "LXXVIII-1: Truthfulness is excellent.": {
+    "x": 2.0141662577450687,
+    "y": 151.70985739130435
+  },
+  "What is excellent is truthfulness only.": {
+    "x": 2.026833970057931,
+    "y": 151.70985739130435
+  },
+  "By truthfulness those who have attained to the state of blissfulness never fall from there.": {
+    "x": 2.039501682370793,
+    "y": 151.70985739130435
+  },
+  "What belongs to sat, namely good people, that is indeed satyam (truthfulness).": {
+    "x": 2.0521693946836552,
+    "y": 151.70985739130435
+  },
+  "For this reason seekers of the highest good find delight in truthfulness.": {
+    "x": 2.0648371069965172,
+    "y": 151.70985739130435
+  },
+  "To him Prajapati thus replied: LXXIX-2: By truth the wind blows.": {
+    "x": 2.0775048193093792,
+    "y": 151.70985739130435
+  },
+  "By truth the sun shines in the sky.": {
+    "x": 2.0901725316222413,
+    "y": 151.70985739130435
+  },
+  "Truth is the foundation of speech.": {
+    "x": 2.1028402439351033,
+    "y": 151.70985739130435
+  },
+  "Everything in practical life depends on truth.": {
+    "x": 2.1155079562479657,
+    "y": 151.70985739130435
+  },
+  "Therefore they say truth is the supreme means of liberation.": {
+    "x": 2.1281756685608277,
+    "y": 151.70985739130435
+  },
+  "As the result of such Tapas, faith in scriptural truths springs into existence.": {
+    "x": 2.1408433808736897,
+    "y": 151.70985739130435
+  },
+  "Conclusive experience of Truth follows calmness.": {
+    "x": 2.1535110931865518,
+    "y": 151.70985739130435
+  },
+  "By conclusive experience of Truth remembrance of It is engendered.": {
+    "x": 2.1661788054994138,
+    "y": 151.70985739130435
+  },
+  "From continuous remembrance results unbroken direct realization of Truth.": {
+    "x": 2.178846517812276,
+    "y": 151.70985739130435
+  },
+  "For, it is found that the vital breaths and the senses of creatures are from food, that reflection f...": {
+    "x": 2.191514230125138,
+    "y": 151.70985739130435
+  },
+  "He is firmly established in the richness of knowledge imparted by his guru, as also in his faith and...": {
+    "x": 2.204181942438,
+    "y": 151.70985739130435
+  },
+  "It deals with that supreme philosophy of the Absolute Truth, ununderstandable, impersonal, Nirguna, ...": {
+    "x": 2.2168496547508623,
+    "y": 135.93413565217392
+  },
+  "This is the eternal Truth.": {
+    "x": 2.2295173670637243,
+    "y": 135.93413565217392
+  },
+  "All is Truth.": {
+    "x": 2.2421850793765863,
+    "y": 135.93413565217392
+  },
+  "This is the real wisdom to be understood by an aspirant seeking after Truth.": {
+    "x": 2.2548527916894483,
+    "y": 135.93413565217392
+  },
+  "Think that you are the basis of all this universe, you are the One, Kevala, Sat-Chit-Ghana.": {
+    "x": 2.2675205040023103,
+    "y": 135.93413565217392
+  },
+  "All people cannot understand this Truth.": {
+    "x": 2.2801882163151723,
+    "y": 135.93413565217392
+  },
+  "One who knows this great secret Truth is the real Muni.": {
+    "x": 2.2928559286280343,
+    "y": 135.93413565217392
+  },
+  "Tell us that, Holy Sir, by meditation on which you know the Truth.": {
+    "x": 2.3055236409408963,
+    "y": 135.93413565217392
+  },
+  "The sages said: How, by what meditation, Sage of Dedicated Life, 532 --- Page 533 --- KRISHNA-YAJUR-...": {
+    "x": 2.318191353253759,
+    "y": 135.93413565217392
+  },
+  "BLUM Inspirer of truthful words, Awakener of noble minds, Sarasvati receives worship.": {
+    "x": 2.330859065566621,
+    "y": 134.61949217391305
+  },
+  "Sarasvati thus spake: Through Me even Brahma won 543 --- Page 544 --- KRISHNA-YAJUR-VEDA Self-knowle...": {
+    "x": 2.343526777879483,
+    "y": 134.61949217391305
+  },
+  "That Maya is adjunct, Wholly subordinate To all-knowing Ishwara; For, His alone oneness, Over Maya l...": {
+    "x": 2.356194490192345,
+    "y": 134.61949217391305
+  },
+  "They are not real – who knows this, In truth, is free – doubt is there none.": {
+    "x": 2.368862202505207,
+    "y": 134.61949217391305
+  },
+  "Non-violence, truth, non-theft, continence and non-possession, absence of anger, service to elders, ...": {
+    "x": 2.381529914818069,
+    "y": 134.61949217391305
+  },
+  "The twenty-three are the Tattvas (eternal verities) relating to Prakriti.": {
+    "x": 2.394197627130931,
+    "y": 134.61949217391305
+  },
+  "The twenty-fourth is the Avyakta, the chief (Tattva).": {
+    "x": 2.406865339443793,
+    "y": 134.61949217391305
+  },
+  "565 --- Page 566 --- KRISHNA-YAJUR-VEDA Then Shiva, hearing this sat in a divine seat to give instru...": {
+    "x": 2.4195330517566553,
+    "y": 132.64752695652174
+  },
+  "‘Truth, knowledge, infinity is Brahman.": {
+    "x": 2.4322007640695174,
+    "y": 132.64752695652174
+  },
+  "‘Truth, knowledge, infinity is Brahman’ – Phat to the inside and outside of the palm.": {
+    "x": 2.4448684763823794,
+    "y": 132.64752695652174
+  },
+  "‘Truth, knowledge, infinity is Brahman – bow to the heart’.": {
+    "x": 2.4575361886952414,
+    "y": 132.64752695652174
+  },
+  "The truth of the universe is stated of all that is seen by the word Brahman.": {
+    "x": 2.4702039010081034,
+    "y": 131.9902052173913
+  },
+  "In ‘Tattvam Asi’ the expressed meaning is the senses etc., which are elemental and the implied is, ‘...": {
+    "x": 2.4828716133209654,
+    "y": 131.9902052173913
+  },
+  "Tvam and Tad mean effect and cause respectively when this is the adjunct; otherwise both are the sam...": {
+    "x": 2.4955393256338274,
+    "y": 131.9902052173913
+  },
+  "He who, by means of truthfulness, self-control and concentration, looks again and again for this Sel...": {
+    "x": 2.50820703794669,
+    "y": 135.27681391304347
+  },
+  "II-1: First harnessing the mind and the senses with a view to realizing the Truth, and then having f...": {
+    "x": 2.520874750259552,
+    "y": 135.27681391304347
+  },
+  "II-14: Just as the same metal disc, which was stained by dust before, shines brilliantly when cleane...": {
+    "x": 2.533542462572414,
+    "y": 135.27681391304347
+  },
+  "II-15: When the Yogin realizes the truth of Brahman, through the 577 --- Page 578 --- KRISHNA-YAJUR-...": {
+    "x": 2.546210174885276,
+    "y": 135.27681391304347
+  },
+  "III-6: O revealer of the Vedic truths, deign to make propitious that arrow which Thou holdest in Thy...": {
+    "x": 2.558877887198138,
+    "y": 135.27681391304347
+  },
+  "VI-21: Himself realizing Brahman by the power of self-control and concentration of mind, as well as ...": {
+    "x": 2.571545599511,
+    "y": 135.27681391304347
+  },
+  "VI-23: These truths, when taught, shine forth only in that high-souled one who has supreme devotion ...": {
+    "x": 2.584213311823862,
+    "y": 135.27681391304347
+  },
+  "I shall call you truth.": {
+    "x": 2.6728872980138965,
+    "y": 139.87806608695652
+  },
+  "Over and above all these he becomes Brahman which is embodied in Akasa, which is identified with the...": {
+    "x": 2.6095487364495864,
+    "y": 139.87806608695652
+  },
+  "Truth and learning and teaching (are to be practised).": {
+    "x": 2.6222164487624484,
+    "y": 139.87806608695652
+  },
+  "Truth (is the thing) – this is what Satyavacha, of the line of Rathitara, thinks.": {
+    "x": 2.6348841610753104,
+    "y": 139.87806608695652
+  },
+  "I-xi-1: Having taught the Vedas, the preceptor imparts this post- instruction to the students: “Spea...": {
+    "x": 2.6475518733881724,
+    "y": 139.87806608695652
+  },
+  "There should be no inadvertence about truth.": {
+    "x": 2.6602195857010345,
+    "y": 139.87806608695652
+  },
+  "Here is a verse uttering that very fact: “Brahman is truth, knowledge, and infinite.": {
+    "x": 2.6855550103267585,
+    "y": 139.87806608695652
+  },
+  "Of him faith is verily the head; righteousness is the right side; truth is the left side; concentrat...": {
+    "x": 2.6982227226396205,
+    "y": 139.87806608695652
+  },
+  "Truth became all this that there is.": {
+    "x": 2.710890434952483,
+    "y": 139.87806608695652
+  },
+  "They call that Brahman Truth.": {
+    "x": 2.723558147265345,
+    "y": 139.87806608695652
+  },
+  "It is inconceivable, unknowable, non-truth and not the highest.": {
+    "x": 2.736225859578207,
+    "y": 139.87806608695652
+  },
+  "In Tyaga (renunciation), one abandons the manifestation (or objects) of the universe through the cog...": {
+    "x": 2.748893571891069,
+    "y": 139.87806608695652
+  },
+  "The Grandfather (Brahma) having saluted the Lord of the universe (Vishnu) and having paid Him due re...": {
+    "x": 2.761561284203931,
+    "y": 139.87806608695652
+  },
+  "I shall explain its truth.": {
+    "x": 2.774228996516793,
+    "y": 139.87806608695652
+  },
+  "Maha-Mudra, Maha-Bandha and Khechari, Jalandhara, Uddiyana and Mula-Bandha, uttering without intermi...": {
+    "x": 2.786896708829655,
+    "y": 139.87806608695652
+  },
+  "When the cause ceases to exist in truth, the effect perishes through right discrimination.": {
+    "x": 2.799564421142517,
+    "y": 153.0245008695652
+  },
+  "Asat and Sat are Chinmatra.": {
+    "x": 2.8122321334553795,
+    "y": 153.0245008695652
+  },
+  "Meditation, truth, sheaths and others, the (eight) Vasus, silence, non-silence and indifference to o...": {
+    "x": 2.8248998457682415,
+    "y": 153.0245008695652
+  },
+  "My real nature is indescribable, of endless bliss, the bliss above Sat and Chit and the interior of ...": {
+    "x": 2.8375675580811035,
+    "y": 153.0245008695652
+  },
+  "I am solely Sat, Ananda and Chit which is unconditioned and pure.": {
+    "x": 2.8502352703939655,
+    "y": 153.0245008695652
+  },
+  "I am content in my own Atman, have no form, or no decay, am without, the number one, have the nature...": {
+    "x": 2.8629029827068275,
+    "y": 153.0245008695652
+  },
+  "I am Brahman that is Sat and bliss and the ancient.": {
+    "x": 2.8755706950196895,
+    "y": 153.0245008695652
+  },
+  "I am the primeval consciousness alone, the partless and non-dual essence, beyond reach of speech and...": {
+    "x": 2.8882384073325515,
+    "y": 153.0245008695652
+  },
+  "I am of the nature of the emancipated and emancipation, of Nirvanic bliss, of truth and wisdom, of S...": {
+    "x": 2.900906119645414,
+    "y": 153.0245008695652
+  },
+  "The Murtis (Brahma, Vishnu and Rudra having limitation) are unreal, all the creation is unreal, all ...": {
+    "x": 2.913573831958276,
+    "y": 153.0245008695652
+  },
+  "I am of the nature of Sat.": {
+    "x": 2.926241544271138,
+    "y": 153.0245008695652
+  },
+  "He is a Videhamukta who having given up the certainty of 632 --- Page 633 --- KRISHNA-YAJUR-VEDA the...": {
+    "x": 2.938909256584,
+    "y": 153.0245008695652
+  },
+  "He who has no body, nor is a Jiva made up of the elements and their compounds, who has neither form ...": {
+    "x": 2.951576968896862,
+    "y": 153.0245008695652
+  },
+  "Where there is truth alone, there is no non-truth possible; where there is non-truth alone, there is...": {
+    "x": 2.964244681209724,
+    "y": 153.0245008695652
+  },
+  "There is no Ganga, no Gaya, no Setu (bridge), no elements or anything else, no earth, water, fire, V...": {
+    "x": 2.976912393522586,
+    "y": 153.0245008695652
+  },
+  "Whatever is determined by the Buddhi, whatever is cognised by Chitta, whatever is discussed by the r...": {
+    "x": 2.989580105835448,
+    "y": 153.0245008695652
+  },
+  "Whatever is uttered by words, whatever is ascertained, spoken, enjoyed, given or done by anyone, wha...": {
+    "x": 3.0022478181483105,
+    "y": 153.0245008695652
+  },
+  "Thou art the truth.": {
+    "x": 3.0149155304611726,
+    "y": 153.0245008695652
+  },
+  "Thou art impartial, Sat and the ancient knowledge, recognised by the words ‘Truth, etc.’.": {
+    "x": 3.0275832427740346,
+    "y": 153.0245008695652
+  },
+  "Thou hast the nature of Chit, thou art Chinmatra unchecked, thou stayest in Atman itself, thou art v...": {
+    "x": 3.0402509550868966,
+    "y": 153.0245008695652
+  },
+  "Earth, water, Agni, Vayu, Akasa, Manas, Buddhi, Ahankara, Tejas, the worlds and the sphere of the un...": {
+    "x": 3.0529186673997586,
+    "y": 153.0245008695652
+  },
+  "Ribhu continued again: “Know everything as Sachchinmaya (full of sat and consciousness).": {
+    "x": 3.0655863797126206,
+    "y": 153.0245008695652
+  },
+  "Sentence, words, Vedas, letters, beginning, middle or end, truth, law, pleasure, pain, existence, Ma...": {
+    "x": 3.0782540920254826,
+    "y": 153.0245008695652
+  },
+  "Everything being of the nature of Sat alone, is Sachchidananda only.": {
+    "x": 3.0909218043383446,
+    "y": 153.0245008695652
+  },
+  "Truth is Brahman.": {
+    "x": 3.103589516651207,
+    "y": 153.0245008695652
+  },
+  "I am the Truth of the nature of Ananda and the nature of the imponderable Chit.": {
+    "x": 3.116257228964069,
+    "y": 153.0245008695652
+  },
+  "I am the supreme Atman, 650 --- Page 651 --- KRISHNA-YAJUR-VEDA the supreme Jyotis, the supreme weal...": {
+    "x": 3.128924941276931,
+    "y": 153.0245008695652
+  },
+  "The universe which is assumed as truth and non- truth does not really exist.": {
+    "x": 3.141592653589793,
+    "y": 153.0245008695652
+  },
+  "Some disputants hold that there are twenty-four Tattvas (principles) and some thirty-six, whilst oth...": {
+    "x": 3.154260365902655,
+    "y": 153.0245008695652
+  },
+  "Manas, Buddhi, Chitta and Ahankara are four; thus those that know Brahman know these to be the twent...": {
+    "x": 3.166928078215517,
+    "y": 153.0245008695652
+  },
+  "The Munis know the total collection of Tattvas to be thirty-six (coupled with Jiva).": {
+    "x": 3.179595790528379,
+    "y": 153.0245008695652
+  },
+  "With these Tattvas, there are six changes, viz., existence, birth, growth, transformation, decay and...": {
+    "x": 3.192263502841241,
+    "y": 153.0245008695652
+  },
+  "Thus these are the ninety-six Tattvas.": {
+    "x": 3.2049312151541036,
+    "y": 153.0245008695652
+  },
+  "Those that worship, with devotion, me of the form of boar, who am other than the aggregate of these ...": {
+    "x": 3.2175989274669656,
+    "y": 153.0245008695652
+  },
+  "Those that know these ninety-six Tattvas will attain salvation in whatever order of life they may be...": {
+    "x": 3.2302666397798276,
+    "y": 153.0245008695652
+  },
+  "It has truth and Prajnana as its characteristics.": {
+    "x": 3.046584811243328,
+    "y": 129.22944
+  },
+  "One who knows his own Atman as Brahman, that is bliss and without duality and Gunas (qualities) and ...": {
+    "x": 3.05925252355619,
+    "y": 129.22944
+  },
+  "This is Satya (Truth).": {
+    "x": 3.071920235869052,
+    "y": 129.22944
+  },
+  "This is nothing but truth.": {
+    "x": 3.084587948181914,
+    "y": 129.22944
+  },
+  "It is truth alone that is now said.": {
+    "x": 3.0972556604947763,
+    "y": 129.22944
+  },
+  "I am Brahman, the truth.": {
+    "x": 3.1099233728076383,
+    "y": 129.22944
+  },
+  "But with an undisturbed mind, Tattvas of Brahman should be investigated.": {
+    "x": 3.1225910851205003,
+    "y": 129.22944
+  },
+  "Those who do not cognise the Tattva of the secondless Brahman are all deluded persons only.": {
+    "x": 3.1352587974333623,
+    "y": 129.22944
+  },
+  "Through direct perception of truth, one’s fitness for action (in this universe) ceases.": {
+    "x": 3.1479265097462243,
+    "y": 129.22944
+  },
+  "If it is said that all the universe is, that Brahman alone is that is of the nature of Sat.": {
+    "x": 3.1605942220590864,
+    "y": 129.22944
+  },
+  "If the Asura nature should arise in a wise man, his knowledge of truth becomes fruitless.": {
+    "x": 3.1732619343719484,
+    "y": 129.22944
+  },
+  "That stage wherein having become indifferent to all sensual objects through the exercise in the (abo...": {
+    "x": 3.1859296466848104,
+    "y": 129.22944
+  },
+  "Then one remains in that secondless state without fear and with his consciousness almost annihilated...": {
+    "x": 3.198597358997673,
+    "y": 129.22944
+  },
+  "Through the path of the Guru and Shastras, enter soon sat – the Brahman that is immutable, great, fu...": {
+    "x": 3.211265071310535,
+    "y": 129.22944
+  },
+  "Those that are under the eyes of those whose Buddhi is solely occupied with the truth (of Brahman) t...": {
+    "x": 3.223932783623397,
+    "y": 129.22944
+  },
+  "They are non-injury, truth, non-coveting, continence, compassion, straightforwardness, patience, cou...": {
+    "x": 3.236600495936259,
+    "y": 129.22944
+  },
+  "And the tenth, the failure to attain the truth of Yoga.": {
+    "x": 3.298127778919541,
+    "y": 150.16531705588736
+  },
+  "The practice of Pranayama should be performed daily with the mind firmly fixed on Truth.": {
+    "x": 3.310795491232403,
+    "y": 150.16531705588736
+  },
+  "Sat (Be-ness) alone remains.": {
+    "x": 3.323463203545265,
+    "y": 150.16531705588736
+  },
+  "726 --- Page 727 --- KRISHNA-YAJUR-VEDA 62.Yoga Tattva Upanishad Om !": {
+    "x": 2.8235806078768286,
+    "y": 140.6148736474637
+  },
+  "I shall now describe Yoga-Tattva (Yoga-Truth) for the benefit of Yogins who are freed from all sins ...": {
+    "x": 2.8362483201896906,
+    "y": 140.6148736474637
+  },
+  "The supreme Purusha called Vishnu, who is the great Yogin, the great being and the great Tapasvin, i...": {
+    "x": 2.8489160325025527,
+    "y": 140.6148736474637
+  },
+  "Vishnu, the great Yogin, the grand one of great austerities and the most excellent Purusha is seen a...": {
+    "x": 3.377806723025133,
+    "y": 145.98205718183073
+  },
+  "This is the Truth, the supreme seat.": {
+    "x": 3.390474435337995,
+    "y": 145.98205718183073
+  },
+  "Here ends the Yogatattva Upanishad belonging to the Krishna-Yajur- Veda.": {
+    "x": 3.403142147650857,
+    "y": 145.98205718183073
+  },
+  "Aruna’s son went to the sphere of Brahma, the Creator, and reaching there said, “Lord, in what way c...": {
+    "x": 3.693204991478072,
+    "y": 137.12128493312764
+  },
+  "Carefully guard (oh, ye all who are concerned) your chastity (in thought, word and deed), non-injury...": {
+    "x": 3.705872703790934,
+    "y": 137.12128493312764
+  },
+  "He who realises the Truth in this manner is really the wise one.": {
+    "x": 3.718540416103796,
+    "y": 137.12128493312764
+  },
+  "“That supreme state of the all- pervading Deity the sages realise for all time like the eye pervadin...": {
+    "x": 3.731208128416658,
+    "y": 137.12128493312764
+  },
+  "Who then can e’er the truth disclose whence sprang this world, whether framed by hand divine or no- ...": {
+    "x": 3.880414357219643,
+    "y": 131.10679874029063
+  },
+  "Therefore with it one speaks both truth and untruth, for it has been pierced with evil.": {
+    "x": 3.654635002260707,
+    "y": 159.59771826086956
+  },
+  "I-viii-2: ‘Let it be so’, saying this they sat down.": {
+    "x": 3.667302714573569,
+    "y": 159.59771826086956
+  },
+  "I-x-8: Seeing the singing priests seated there, he sat down near the singers in the place for singin...": {
+    "x": 3.679970426886431,
+    "y": 159.59771826086956
+  },
+  "Then they all sat down silently suspending their duties.": {
+    "x": 3.692638139199293,
+    "y": 159.59771826086956
+  },
+  "Then they sat down and began to pronounce ‘him’.": {
+    "x": 3.705305851512155,
+    "y": 159.59771826086956
+  },
+  "O gods, by this, my assertion of the truth, may I not fall from Brahman’.": {
+    "x": 3.717973563825017,
+    "y": 159.59771826086956
+  },
+  "III-xvii-4: And his austerity, gifts, uprightness, non-violence, and truthfulness – all these are th...": {
+    "x": 3.730641276137879,
+    "y": 159.59771826086956
+  },
+  "IV-iv-1: Once upon a time Satyakama Jabala addressed his mother Jabala, ‘Mother, I desire to live th...": {
+    "x": 3.7433089884507416,
+    "y": 159.59771826086956
+  },
+  "However, I am Jabala by name and you are named Satyakama.": {
+    "x": 3.7559767007636036,
+    "y": 159.59771826086956
+  },
+  "So you speak of yourself only as Satyakama Jabala.’ IV-iv-3: He went to Haridrumata Gautama and said...": {
+    "x": 3.7686444130764656,
+    "y": 159.59771826086956
+  },
+  "However, I am Jabala by name and you are named Satyakama\".": {
+    "x": 3.7813121253893276,
+    "y": 159.59771826086956
+  },
+  "So, sir, I am Satyakama Jabala.’ IV-iv-5: The teacher said to him, ‘No one who is not a Brahmana can...": {
+    "x": 3.7939798377021896,
+    "y": 159.59771826086956
+  },
+  "Dear boy, bring the sacrificial fuel, I shall initiate you as a Brahmacharin, for you have not devia...": {
+    "x": 3.8066475500150516,
+    "y": 159.59771826086956
+  },
+  "Having initiated him, he sorted out four hundred lean and weak cows and said, ‘Dear boy, follow them...": {
+    "x": 3.8193152623279136,
+    "y": 159.59771826086956
+  },
+  "IV-v-1: Then the bull addressed him thus, ‘Satyakama !’ ‘Yes, revered sir’, thus he responded, ‘Dear...": {
+    "x": 3.8319829746407756,
+    "y": 159.59771826086956
+  },
+  "Towards evening, at the place where those cows came together, he kindled the fire there, penned the ...": {
+    "x": 3.844650686953638,
+    "y": 159.59771826086956
+  },
+  "IV-vi-2: The fire addressed him, ‘Satyakama !’ ‘Yes, revered sir’, he responded.": {
+    "x": 3.8573183992665,
+    "y": 159.59771826086956
+  },
+  "Towards evening, at the place where the cows came together, he kindled the fire there, penned the co...": {
+    "x": 3.869986111579362,
+    "y": 159.59771826086956
+  },
+  "798 --- Page 799 --- SAMA-VEDA IV-vii-2: The swan flew to him and addressed him, ‘Satyakama !’ ‘Yes,...": {
+    "x": 3.882653823892224,
+    "y": 159.59771826086956
+  },
+  "Towards evening at the place where the cows came together, he kindled the fire there, penned the cow...": {
+    "x": 3.895321536205086,
+    "y": 159.59771826086956
+  },
+  "IV-viii-2: The Madgu bird flew to him and addressed him, ‘Satyakama !’ ‘Yes, revered sir’, he respon...": {
+    "x": 3.907989248517948,
+    "y": 159.59771826086956
+  },
+  "extensive) regions (in the next world).’ IV-ix-1: Satyakama reached the house of the teacher.": {
+    "x": 3.92065696083081,
+    "y": 159.59771826086956
+  },
+  "The teacher addressed him, ‘Satyakama !’ ‘Yes, revered sir’, he responded.": {
+    "x": 3.9333246731436726,
+    "y": 159.59771826086956
+  },
+  "IV-ix-2: ‘Dear boy, you shine like a knower of Brahman; who is it that has instructed you ?’ Satyaka...": {
+    "x": 3.9459923854565346,
+    "y": 159.59771826086956
+  },
+  "IV-x-1: Once upon a time Upakosala Kamalayana lived with Satyakama Jabala the life of a Brahmacharin...": {
+    "x": 3.9586600977693966,
+    "y": 159.59771826086956
+  },
+  "Satyakama performed for other disciples the ceremony of completing studies and returning home, but d...": {
+    "x": 3.9713278100822587,
+    "y": 159.59771826086956
+  },
+  "Here he concealed the truth, as it were.": {
+    "x": 3.9839955223951207,
+    "y": 159.59771826086956
+  },
+  "V-ii-3: Satyakama Jabala imparted this (doctrine of Prana) to Gosruti, the son of Vyaghrapada, and s...": {
+    "x": 3.9966632347079827,
+    "y": 159.59771826086956
+  },
+  "V-xi-1: Pracinasala the son of Upamanyu, Satyayajna the son of Pulusa, Indradyumna the son of Bhalla...": {
+    "x": 4.009330947020845,
+    "y": 159.59771826086956
+  },
+  "If you had not come to me your head (a portion) would have fallen down.’ V-xiii-1: Then the king sai...": {
+    "x": 4.021998659333707,
+    "y": 159.59771826086956
+  },
+  "In truth, dear boy, in the beginning (before creation), there was Being alone, one only, without a s...": {
+    "x": 4.034666371646569,
+    "y": 159.59771826086956
+  },
+  "And being attached to truth, he covers himself with truth and grasps the heated axe; he is not burnt...": {
+    "x": 4.047334083959431,
+    "y": 159.59771826086956
+  },
+  "VI-xvi-3: ‘And as in this case he (the man attached to truth) is not burnt, (similarly a man of know...": {
+    "x": 4.060001796272293,
+    "y": 159.59771826086956
+  },
+  "VII-xvi-1: ‘But he really speaks surpassingly who speaks surpassingly with truth’.": {
+    "x": 4.072669508585155,
+    "y": 159.59771826086956
+  },
+  "‘Revered sir, being such, I would speak surpassingly with truth’.": {
+    "x": 4.085337220898017,
+    "y": 159.59771826086956
+  },
+  "‘But one must desire to understand the truth’.": {
+    "x": 4.09800493321088,
+    "y": 159.59771826086956
+  },
+  "‘Revered sir, I desire to understand the truth’.": {
+    "x": 4.110672645523741,
+    "y": 159.59771826086956
+  },
+  "VII-xvii-1: ‘When one understands, then alone does one declare the truth.": {
+    "x": 4.123340357836604,
+    "y": 159.59771826086956
+  },
+  "Without understanding, one does not declare the truth.": {
+    "x": 4.136008070149465,
+    "y": 159.59771826086956
+  },
+  "Only he who understands declares the truth.": {
+    "x": 4.148675782462328,
+    "y": 159.59771826086956
+  },
+  "This is the Atman, free from evil, free from old age, free from death, free from sorrow, free from h...": {
+    "x": 4.161343494775189,
+    "y": 159.59771826086956
+  },
+  "VIII-vii-1: The Atman which is free from evil, free from old age, free from death, free from sorrow,...": {
+    "x": 4.174011207088052,
+    "y": 159.59771826086956
+  },
+  "Then Prajapati asked them, ‘Desiring what have you been living ?’ They replied, ‘The Atman which is ...": {
+    "x": 4.186678919400914,
+    "y": 159.59771826086956
+  },
+  "But even before reaching the gods he saw this difficulty: ‘In truth this one does not know himself n...": {
+    "x": 4.199346631713776,
+    "y": 159.59771826086956
+  },
+  "Prajapati asked him, ‘Desiring what, O Indra, have you come back, since you went away satisfied in y...": {
+    "x": 4.212014344026638,
+    "y": 159.59771826086956
+  },
+  "Yama which is the first is the practice of non-violence, truth, non possession of properties of othe...": {
+    "x": 4.046628725448012,
+    "y": 133.3716942458687
+  },
+  "Of this knowledge austerity, self-restraint and action are the feet, the Vedas are all limbs and tru...": {
+    "x": 3.6359547011795197,
+    "y": 140.1082115600886
+  },
+  "From his forehead a person arose with three eyes and a trident, having glory, fame, truth, celibacy,...": {
+    "x": 4.067752121387555,
+    "y": 139.21292281981357
+  },
+  "Suka, of great lustre, devoted to Natural Bliss, the prince of 875 --- Page 876 --- SAMA-VEDA sages,...": {
+    "x": 4.080419833700417,
+    "y": 139.21292281981357
+  },
+  "Sage Vyasa, knowing the son’s thought said, ‘I do not know the truth; you can know all from Janaka, ...": {
+    "x": 4.09308754601328,
+    "y": 139.21292281981357
+  },
+  "So great- armed Janaka, pray tell me the truth, firmly – the world gets peace for the reeling mind f...": {
+    "x": 4.105755258326141,
+    "y": 139.21292281981357
+  },
+  "Desires for enjoyment do not flash even in the illusory fatamorgana; so, oh preceptor, waken me quic...": {
+    "x": 4.118422970639004,
+    "y": 139.21292281981357
+  },
+  "Only the knowledge of Truth is the fire to the grass of mental impressions – this is said to be Sama...": {
+    "x": 4.131090682951865,
+    "y": 139.21292281981357
+  },
+  "The wise people have attributed, for empirical purposes, names for the supreme Being, such as, Rita ...": {
+    "x": 4.143758395264728,
+    "y": 139.21292281981357
+  },
+  "One cannot attain (realize) (truth) without desisting from bad conduct, without calmness and concent...": {
+    "x": 4.156426107577589,
+    "y": 139.21292281981357
+  },
+  "One fears never (and from nothing) on knowing the nature 890 --- Page 891 --- SAMA-VEDA of the self ...": {
+    "x": 4.169093819890452,
+    "y": 139.21292281981357
+  },
+  "Hence, the aspirants to liberation should not consider these schools (being illusory) but the (essen...": {
+    "x": 4.181761532203313,
+    "y": 139.21292281981357
+  },
+  "Without a good preceptor’s grace it is hard to give up objects, to see truth and (to realize) the pr...": {
+    "x": 4.194429244516176,
+    "y": 139.21292281981357
+  },
+  "You remain intent upon that state of the empire of truth which can only be non-projection and which ...": {
+    "x": 4.207096956829038,
+    "y": 139.21292281981357
+  },
+  "While (yet) living one is awakened to the supreme Truth that alone is to be realized.": {
+    "x": 4.2197646691419,
+    "y": 139.21292281981357
+  },
+  "‘The mind filled with (Truth) shines like the full-moon vanquishing all meanness born of perplexitie...": {
+    "x": 4.232432381454762,
+    "y": 139.21292281981357
+  },
+  "‘Like no eternal spirits; latent impressions cut capers only as long as the mind remains unvanquishe...": {
+    "x": 4.245100093767623,
+    "y": 139.21292281981357
+  },
+  "‘By wholly overcoming the inimical senses, resorting to sovereign discrimination, and beholding the ...": {
+    "x": 4.257767806080488,
+    "y": 139.21292281981357
+  },
+  "As it is observed, it perishes – observed with the flaming imagination whose content is: ‘in Truth i...": {
+    "x": 4.27043551839335,
+    "y": 139.21292281981357
+  },
+  "That ultimate Status which is said to be imperishable is (in truth) not won.": {
+    "x": 4.283103230706211,
+    "y": 139.21292281981357
+  },
+  "‘Therefore, Nidagha, with your awareness of Truth, cultivate indifference to whatever has perished a...": {
+    "x": 4.2957709430190745,
+    "y": 139.21292281981357
+  },
+  "‘The sprouting of mental construction consists in Spirits’ proneness to objects (‘knowables’) – the ...": {
+    "x": 4.308438655331936,
+    "y": 139.21292281981357
+  },
+  "‘This sameness, amidst all emotional moods, is the status grounded in Truth.": {
+    "x": 4.321106367644798,
+    "y": 139.21292281981357
+  },
+  "We duly meditate on that stable Self, manifest in the truth of one’s self (the source of the joy of ...": {
+    "x": 4.333774079957659,
+    "y": 139.21292281981357
+  },
+  "The Brahmin seeker after Truth who dwells upon the Mahopanishad becomes a well versed Vedic scholar.": {
+    "x": 4.3464417922705225,
+    "y": 139.21292281981357
+  },
+  "(If) uninitiated, he becomes initiated; he becomes purified by fire, by air, by the sun, by the moon...": {
+    "x": 4.359109504583384,
+    "y": 139.21292281981357
+  },
+  "The modes of mind, withdrawn, of the lover of Truth, not deceived by sense objects, are false.": {
+    "x": 4.46689559056547,
+    "y": 142.55853055999387
+  },
+  "But we hear that you are a knower of the truth.": {
+    "x": 4.479563302878332,
+    "y": 142.55853055999387
+  },
+  "Approaching him (the Lord) he said: ‘Lord, expound to me the secret of the supreme Truth’.": {
+    "x": 4.368553964981506,
+    "y": 126.98886412290074
+  },
+  "I am above truth and untruth, I am always nothing other than pure Existence.": {
+    "x": 4.381221677294368,
+    "y": 126.98886412290074
+  },
+  "Lord Kalagnirudra said: The bead with one face is of the form of the Supreme Truth.": {
+    "x": 3.5396311697099936,
+    "y": 134.39416585148047
+  },
+  "A disciplined one (controlling his senses) mingles himself with the one Eternal Truth, after wearing...": {
+    "x": 3.552298882022856,
+    "y": 134.39416585148047
+  },
+  "The bead with eight faces is of the form of the eight-fold Nature (five elements, mind, ego, and mat...": {
+    "x": 3.5649665943357176,
+    "y": 134.39416585148047
+  },
+  "(Again) one should never allow renunciation to one who is devoid of religious observances, religious...": {
+    "x": 4.52010447670916,
+    "y": 141.583824874235
+  },
+  "Give up (concepts of) righteousness and unrighteousness (dharma and adharma), give up both truth and...": {
+    "x": 4.532772189022022,
+    "y": 141.583824874235
+  },
+  "I am now seized (of the truth), I am awakened, I have risen (above delusion).": {
+    "x": 4.545439901334884,
+    "y": 141.583824874235
+  },
+  "Where the mind is rendered quiescent, there is truth and auspiciousness; its is the true state; it i...": {
+    "x": 4.5581076136477465,
+    "y": 141.583824874235
+  },
+  "I follow that path (of wisdom), I am alone (unencumbered with attachments), I am successful (in real...": {
+    "x": 4.570775325960608,
+    "y": 141.583824874235
+  },
+  "The states of purity, strength, reality, heartiness, truth, true, knowledge, bliss, tranquillity, th...": {
+    "x": 4.5834430382734705,
+    "y": 141.583824874235
+  },
+  "The Hamsa ascetic, the world of truth (Satya-loka).": {
+    "x": 4.596110750586332,
+    "y": 141.583824874235
+  },
+  "One who has directly realized, like the berry in the palm, the Atman without a second, devoid of cla...": {
+    "x": 4.634392338526981,
+    "y": 136.47764775130386
+  },
+  "One should contemplate one’s self as the spirit without a second, truth, knowledge and bliss.": {
+    "x": 4.647060050839842,
+    "y": 136.47764775130386
+  },
+  "Then, rising, that ascetic respectfully said, ‘Teach me the truth about the Self; by what kind of ad...": {
+    "x": 4.756725973479707,
+    "y": 140.53538782608695
+  },
+  "Thus hidden by the wide-eyed (deity) I spoke: ‘O Daughter of the mountain, may the truth of the Self...": {
+    "x": 4.769393685792569,
+    "y": 140.53538782608695
+  },
+  "This state of slumber, O Nidagha, fully developed through 1005 --- Page 1006 --- ATHARVA-VEDA practi...": {
+    "x": 4.782061398105431,
+    "y": 140.53538782608695
+  },
+  "Ribhu: In the region of Sumeru the celebrated sage Mandavya resorting to Truth (imparted by) Kaundin...": {
+    "x": 4.794729110418293,
+    "y": 140.53538782608695
+  },
+  "He sat in the lotus-posture, with eyes half-closed, slowly avoiding contacts (with objects), externa...": {
+    "x": 4.807396822731155,
+    "y": 140.53538782608695
+  },
+  "Which is the All, the all-pervading Reality, the Truth.": {
+    "x": 4.820064535044017,
+    "y": 140.53538782608695
+  },
+  "That non- dual Brahman characterised by truth, knowledge, and bliss is the object of knowledge.": {
+    "x": 4.832732247356879,
+    "y": 140.53538782608695
+  },
+  "Having the certain knowledge, ‘I am the ground of the whole world, solid Truth and Knowledge’, the s...": {
+    "x": 4.8453999596697415,
+    "y": 140.53538782608695
+  },
+  "That is the pure unobscured Truth of the Self; when that is known the mind is tranquillised.": {
+    "x": 4.858067671982603,
+    "y": 140.53538782608695
+  },
+  "O knower of Truth !": {
+    "x": 4.8707353842954655,
+    "y": 140.53538782608695
+  },
+  "As long as the latent impressions are not attenuated, the mind is not tranquillised; as long as the ...": {
+    "x": 4.883403096608328,
+    "y": 140.53538782608695
+  },
+  "As long as the mind is not tranquil, Truth cannot be known; so long as the knowledge of Truth is not...": {
+    "x": 4.8960708089211895,
+    "y": 140.53538782608695
+  },
+  "Knowledge of Truth, mind’s destruction, attenuation of latent impressions – (these) mutually cause o...": {
+    "x": 4.908738521234052,
+    "y": 140.53538782608695
+  },
+  "Sought for long and simultaneously, the attenuation of latent impressions, knowledge (of Truth), and...": {
+    "x": 4.9214062335469135,
+    "y": 140.53538782608695
+  },
+  "Truth-knowers know that breath-control corresponds to the eschewal of latent impressions; therefore,...": {
+    "x": 4.934073945859776,
+    "y": 140.53538782608695
+  },
+  "The mind of the knower is not called mind; mind indeed is the Truth of Spirit.": {
+    "x": 4.946741658172638,
+    "y": 140.53538782608695
+  },
+  "I meditate on that “ultimate truth”, which explains the meaning “of the sound of Om”, which shines a...": {
+    "x": 4.9482841305732705,
+    "y": 126.1945972701623
+  },
+  "He is truth and we salute him again and again.": {
+    "x": 4.7633002037698935,
+    "y": 128.3600769376707
+  },
+  "They who worship “penance” and “truth”, get permanent happiness.": {
+    "x": 4.775967916082755,
+    "y": 128.3600769376707
+  },
+  "From the point of view of truth, pure Brahman alone is.": {
+    "x": 4.9974125074240865,
+    "y": 133.30484869565217
+  },
+  "Because it appears to be encompassed by Rahu (the darkness), the unencompassed sun is said to be enc...": {
+    "x": 5.010080219736948,
+    "y": 133.30484869565217
+  },
+  "Bondage and liberation may be described as real and unreal and as due to the nescience (concealment ...": {
+    "x": 5.0227479320498105,
+    "y": 133.30484869565217
+  },
+  "In the supreme Truth as in the sky, impartite, inactive, quiescent, flawless, unstained and non-dual...": {
+    "x": 5.035415644362672,
+    "y": 133.30484869565217
+  },
+  "Neither suppression nor generation, neither the bond nor the striving: neither the liberty seeking n...": {
+    "x": 5.0480833566755345,
+    "y": 133.30484869565217
+  },
+  "This is the highest truth and the greatest instruction.": {
+    "x": 5.060751068988396,
+    "y": 131.9902052173913
+  },
+  "I am the Highest Truth that exists, the Brahman of the Upanishads.": {
+    "x": 5.073418781301259,
+    "y": 131.9902052173913
+  },
+  "This Upanishad ends with the blessing ”Om Sathya!”(long live the truth).": {
+    "x": 5.086086493614121,
+    "y": 131.9902052173913
+  },
+  "You clearly are the tattva.": {
+    "x": 5.141272092539559,
+    "y": 135.57274934210903
+  },
+  "The truth I speak.": {
+    "x": 5.153939804852421,
+    "y": 135.57274934210903
+  },
+  "Om tat sat.": {
+    "x": 5.377443876809949,
+    "y": 143.82199652173912
+  },
+  "From om came the mahat-tattva.": {
+    "x": 5.149425055178431,
+    "y": 143.82199652173912
+  },
+  "From the mahat-tattva came false-ego.": {
+    "x": 5.162092767491293,
+    "y": 143.82199652173912
+  },
+  "Obeisances to Sri Krishna, who is Govinda and Gopijanavallabha, Om tat sat.": {
+    "x": 5.187428192117017,
+    "y": 143.82199652173912
+  },
+  "“Control of senses” was born as Sage Udhawa and “Truth” was born as Sage Akroora.": {
+    "x": 5.333411994361062,
+    "y": 132.39277451423766
+  },
+  "Prajna knows neither himself nor others, neither truth nor untruth.": {
+    "x": 5.402779301435673,
+    "y": 133.30484869565217
+  },
+  "When (the Truth is) realised, duality does not exist.": {
+    "x": 5.415447013748534,
+    "y": 133.30484869565217
+  },
+  "This is the ultimate truth.": {
+    "x": 5.428114726061397,
+    "y": 133.30484869565217
+  },
+  "Thus know the knowers of Truth.": {
+    "x": 5.440782438374258,
+    "y": 133.30484869565217
+  },
+  "Having perceived Truth internally and having perceived it externally, one should become identified w...": {
+    "x": 5.453450150687121,
+    "y": 133.30484869565217
+  },
+  "When the mind ceases to imagine consequent on the realisation of the Truth which is the Self, then i...": {
+    "x": 5.466117862999983,
+    "y": 133.30484869565217
+  },
+  "(Such being the case), this is the highest Truth where nothing is born whatsoever.": {
+    "x": 5.478785575312845,
+    "y": 133.30484869565217
+  },
+  "This is that supreme truth where nothing is born whatsoever.": {
+    "x": 5.491453287625707,
+    "y": 133.30484869565217
+  },
+  "Having realised the Truth that is uncaused and having abstained from obtaining any further cause, on...": {
+    "x": 5.504120999938569,
+    "y": 133.30484869565217
+  },
+  "He (Angir) passed it on to Satyavaha of the line of Bharadvaja.": {
+    "x": 5.516788712251431,
+    "y": 133.30484869565217
+  },
+  "I-ii-9: Continuing diversely in the midst of ignorance, the unenlightened take airs by thinking, ‘We...": {
+    "x": 5.529456424564293,
+    "y": 133.9621704347826
+  },
+  "II-i-7: And from Him duly emerged the gods in various groups, the Sadhyas, human beings, beasts, bir...": {
+    "x": 5.542124136877155,
+    "y": 133.9621704347826
+  },
+  "III-i-5: The bright and pure Self within the body, that the monks with (habitual effort and) attenua...": {
+    "x": 5.554791849190018,
+    "y": 133.9621704347826
+  },
+  "III-i-6: Truth alone wins, and not untruth.": {
+    "x": 5.567459561502879,
+    "y": 133.9621704347826
+  },
+  "By truth is laid the path called Devayana, by which the desireless seers ascend to where exists the ...": {
+    "x": 5.580127273815742,
+    "y": 133.9621704347826
+  },
+  "III-ii-10: This (rule) has been revealed by the mantra (which runs thus): ‘To them alone should one ...": {
+    "x": 5.592794986128603,
+    "y": 133.9621704347826
+  },
+  "After the completion of the sacrifice he went, accompanied by them, to the world of the god Brahma (...": {
+    "x": 5.525084379347602,
+    "y": 161.7695315830485
+  },
+  "He is in the stage (leading to) final beatitude in whom are found peace, quiescence, purity, truth, ...": {
+    "x": 5.5377520916604634,
+    "y": 161.7695315830485
+  },
+  "The ten virtues characterising right conduct (dharma) are: Contentment, forgiveness, self-control, n...": {
+    "x": 5.550419803973326,
+    "y": 161.7695315830485
+  },
+  "That ascetic is said to be tongueless who, while eating food is not conscious of its being savoury o...": {
+    "x": 5.5630875162861875,
+    "y": 161.7695315830485
+  },
+  "The Yogin, the knower of yoga and the perceiver of the truth, shall possess that sutra (Brahman) by ...": {
+    "x": 5.57575522859905,
+    "y": 161.7695315830485
+  },
+  "An ascetic comes down (from his high position) if he has greed, anger, untruth, bamboozling, covetou...": {
+    "x": 5.588422940911912,
+    "y": 161.7695315830485
+  },
+  "Abstaining from injury, (having) truthfulness, non-stealing, continence, non-acquiring, humility, ab...": {
+    "x": 5.601090653224774,
+    "y": 161.7695315830485
+  },
+  "First (he shall propitiate) the group of deities named Satya, Vasu, etc.; in the commemorative cerem...": {
+    "x": 5.613758365537636,
+    "y": 161.7695315830485
+  },
+  "‘The individual soul, non-different from Brahman, pervading pure ether, the sun (Vasu), remaining in...": {
+    "x": 5.626426077850498,
+    "y": 161.7695315830485
+  },
+  "He shall not put on airs nor speak an untruth.": {
+    "x": 5.63909379016336,
+    "y": 161.7695315830485
+  },
+  "The Paramahamsa reaches the abode of Brahma and of Truth (Satyaloka).": {
+    "x": 5.651761502476222,
+    "y": 161.7695315830485
+  },
+  "That ascetic is considered as one beyond the castes and orders (ativarnashramin) who realizes the su...": {
+    "x": 5.6644292147890845,
+    "y": 161.7695315830485
+  },
+  "The knowers of the truth of all the Vedas declare that man to be beyond the castes and orders who is...": {
+    "x": 5.677096927101947,
+    "y": 161.7695315830485
+  },
+  "Pleasing him by rendering personal service attentively for a long time, he shall always listen with ...": {
+    "x": 5.6897646394148085,
+    "y": 161.7695315830485
+  },
+  "The wise ascetic, the Yogin, his mind dwelling on the highest truth, shall not destroy insects, worm...": {
+    "x": 5.702432351727671,
+    "y": 161.7695315830485
+  },
+  "Having considered himself as separate (as the individual Self, as the ether in the pot with referenc...": {
+    "x": 5.7151000640405325,
+    "y": 161.7695315830485
+  },
+  "The First Upanishad 1250 --- Page 1251 --- ATHARVA-VEDA Bhagawan Narasimha who is partly human and p...": {
+    "x": 5.727767776353395,
+    "y": 161.7695315830485
+  },
+  "It is the truth.": {
+    "x": 5.6934324670178365,
+    "y": 140.3670695161855
+  },
+  "This is the great truth.": {
+    "x": 5.706100179330699,
+    "y": 140.3670695161855
+  },
+  "Afterwards adjust the very gross Virat form in the very micro Hiranyagarbha form, and this micro for...": {
+    "x": 5.745883784306952,
+    "y": 147.32124580175045
+  },
+  "One who knows this, would be without a body, without sensory organs, without soul, without ignorance...": {
+    "x": 5.758551496619814,
+    "y": 147.32124580175045
+  },
+  "Under Yama (forbearance) are ten: Ahimsa, Satya, Asteya, Brahmacharya, Daya, Arjava, Kshama, Dhriti,...": {
+    "x": 5.771219208932677,
+    "y": 147.32124580175045
+  },
+  "Satya is the speaking of the truth that conduces to the well-being of creatures, through the actions...": {
+    "x": 5.783886921245538,
+    "y": 147.32124580175045
+  },
+  "Hence the four states (waking, etc.,) are to be considered as a covering by four fingers and just as...": {
+    "x": 5.824153491505545,
+    "y": 159.30110344916338
+  },
+  "Then this which extends from the navel to the Brahmarandhra and connected with the twenty-seven tatt...": {
+    "x": 5.836821203818406,
+    "y": 159.30110344916338
+  },
+  "Things made of clay are considered real (but) it is verbosity (born of ignorance); the transformatio...": {
+    "x": 5.849488916131269,
+    "y": 159.30110344916338
+  },
+  "The twenty-four tattvas constitute the threads.": {
+    "x": 5.86215662844413,
+    "y": 159.30110344916338
+  },
+  "The nine tattvas constitute the one transcendent Brahman, (but people) provide many paths (such as S...": {
+    "x": 5.874824340756993,
+    "y": 159.30110344916338
+  },
+  "possess) true knowledge which is rooted in consciousness, having threads in the form of true princip...": {
+    "x": 5.887492053069855,
+    "y": 159.30110344916338
+  },
+  "He shall bathe during the three prescribed periods, listen to an exposition of the Vedanta and pract...": {
+    "x": 5.932280452216881,
+    "y": 163.32793790766036
+  },
+  "This type of outside knowledge should be attained by truth, penance and other rules of life dictated...": {
+    "x": 5.944948164529744,
+    "y": 163.32793790766036
+  },
+  "I-1: Sukesa, son of Bharadvaja; Satyakama, so of Sibi; the grandson of Surya, born of the family of ...": {
+    "x": 5.9975314165266385,
+    "y": 137.7512363929771
+  },
+  "V-1: Next, Satyakama, son of Sibi, asked him, “O venerable sir, which world does he really win there...": {
+    "x": 6.00668555623527,
+    "y": 170.71493812234044
+  },
+  "The wise knower of Truth declare that the confluence of the above two terms end in the meaning ‘asi’...": {
+    "x": 6.06965148073041,
+    "y": 139.46719847924868
+  },
+  "Wherefore, the sentence ‘tattvamasi’ grants the unitive salvation.": {
+    "x": 6.082319193043272,
+    "y": 139.46719847924868
+  },
+  "Therefore, this (mantra) giver of enjoyment and liberation surpasses the afore-said sentence (tattva...": {
+    "x": 6.0949869053561345,
+    "y": 139.46719847924868
+  },
+  "This is the Truth.": {
+    "x": 6.07108649156912,
+    "y": 171.4493517207395
+  },
+  "A person possessed of Yama and Niyama, avoiding all company, having finished his course of study, de...": {
+    "x": 6.074168054017362,
+    "y": 139.22074434782607
+  },
+  "With eyes half closed and with a firm mind, fixing his eyes on the tip of his nose and becoming abso...": {
+    "x": 6.086835766330224,
+    "y": 139.22074434782607
+  },
+  "As camphor in fire and salt in water become absorbed, so also the mind becomes absorbed in the Tattv...": {
+    "x": 6.099503478643086,
+    "y": 139.22074434782607
+  },
+  "(Then) the fluctuations of Prana are prevented, when one has no longing for this mundane existence o...": {
+    "x": 6.112171190955948,
+    "y": 139.22074434782607
+  },
+  "In that place is Khechari-mudra situated and that is the seat of Truth.": {
+    "x": 6.12483890326881,
+    "y": 139.22074434782607
+  },
+  "Thus is the direct perception (of truth) attained.": {
+    "x": 6.137506615581672,
+    "y": 139.22074434782607
+  },
+  "Through the Samyama of Chitta in the eye, he gets a knowledge of all worlds; in the ear, a knowledge...": {
+    "x": 6.150174327894534,
+    "y": 139.22074434782607
+  },
+  "Teach me the science of Brahman by which I shall obtain that which is most excellent.\" 1377 --- Page...": {
+    "x": 6.162842040207397,
+    "y": 139.22074434782607
+  },
+  "That which is one and non-dual, that which pervades everything like Akasa, which is extremely subtle...": {
+    "x": 6.1755097525202585,
+    "y": 139.22074434782607
+  },
+  "CHAPTER – III Then Sandilya questioned Atharvan thus: \"From the Brahman that is OM, imperishable, ac...": {
+    "x": 6.188177464833121,
+    "y": 139.22074434782607
+  },
+  "Please solve me this doubt.\" Atharvan replied: \"The Supreme Brahman, the Truth, is the 1378 --- Page...": {
+    "x": 6.2008451771459825,
+    "y": 139.22074434782607
+  },
+  "That which is Satya, Vijnana and Ananda; That which is actionless, without any impurity, omnipresent...": {
+    "x": 6.213512889458845,
+    "y": 139.22074434782607
+  },
+  "That form of him as Dattatreya, who sports with his Sakti, who is kind to his devotees, who is brill...": {
+    "x": 6.2261806017717065,
+    "y": 139.22074434782607
+  },
+  "Here these Shlokas (stanzas) occur (to memory): 1-4: He who contemplates always the Lord of Lords an...": {
+    "x": 6.238848314084569,
+    "y": 139.22074434782607
+  },
+  "The letter sa denotes truth immortal; Achievement; Siva with his consort.": {
+    "x": 0.01042063154665751,
+    "y": 111.08361036292267
+  },
+  "Being free from desires (in truth) and impeccable, He holds sway.": {
+    "x": 0.016132837082131868,
+    "y": 148.16557318699682
+  },
+  "V-13: There is no restriction, no origin; None in bondage: none who strives; None seeks liberation; ...": {
+    "x": 6.2528823701705,
+    "y": 155.73793274000946
+  }
+}

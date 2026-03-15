@@ -1,0 +1,155 @@
+{
+  "Rigveda": [
+    {
+      "context": "Sacred Utterances",
+      "count": 7,
+      "percentage": 26.9
+    },
+    {
+      "context": "Liberation & Freedom",
+      "count": 4,
+      "percentage": 15.4
+    },
+    {
+      "context": "Cosmic Elements",
+      "count": 4,
+      "percentage": 15.4
+    },
+    {
+      "context": "Brahman Identity",
+      "count": 4,
+      "percentage": 15.4
+    },
+    {
+      "context": "Knowledge & Wisdom",
+      "count": 3,
+      "percentage": 11.5
+    },
+    {
+      "context": "Self-Realization",
+      "count": 2,
+      "percentage": 7.7
+    },
+    {
+      "context": "Teacher-Student Transmission",
+      "count": 2,
+      "percentage": 7.7
+    }
+  ],
+  "Yajurveda": [
+    {
+      "context": "Knowledge & Wisdom",
+      "count": 47,
+      "percentage": 18.6
+    },
+    {
+      "context": "Cosmic Elements",
+      "count": 43,
+      "percentage": 17.0
+    },
+    {
+      "context": "Brahman Identity",
+      "count": 42,
+      "percentage": 16.6
+    },
+    {
+      "context": "Teacher-Student Transmission",
+      "count": 42,
+      "percentage": 16.6
+    },
+    {
+      "context": "Sacred Utterances",
+      "count": 27,
+      "percentage": 10.7
+    },
+    {
+      "context": "Self-Realization",
+      "count": 25,
+      "percentage": 9.9
+    },
+    {
+      "context": "Liberation & Freedom",
+      "count": 21,
+      "percentage": 8.3
+    },
+    {
+      "context": "Ethical Foundation",
+      "count": 6,
+      "percentage": 2.4
+    }
+  ],
+  "Samaveda": [
+    {
+      "context": "Cosmic Elements",
+      "count": 29,
+      "percentage": 31.5
+    },
+    {
+      "context": "Self-Realization",
+      "count": 23,
+      "percentage": 25.0
+    },
+    {
+      "context": "Sacred Utterances",
+      "count": 16,
+      "percentage": 17.4
+    },
+    {
+      "context": "Brahman Identity",
+      "count": 10,
+      "percentage": 10.9
+    },
+    {
+      "context": "Teacher-Student Transmission",
+      "count": 7,
+      "percentage": 7.6
+    },
+    {
+      "context": "Knowledge & Wisdom",
+      "count": 7,
+      "percentage": 7.6
+    }
+  ],
+  "Atharvaveda": [
+    {
+      "context": "Cosmic Elements",
+      "count": 24,
+      "percentage": 19.8
+    },
+    {
+      "context": "Ethical Foundation",
+      "count": 18,
+      "percentage": 14.9
+    },
+    {
+      "context": "Teacher-Student Transmission",
+      "count": 16,
+      "percentage": 13.2
+    },
+    {
+      "context": "Knowledge & Wisdom",
+      "count": 15,
+      "percentage": 12.4
+    },
+    {
+      "context": "Self-Realization",
+      "count": 13,
+      "percentage": 10.7
+    },
+    {
+      "context": "Sacred Utterances",
+      "count": 12,
+      "percentage": 9.9
+    },
+    {
+      "context": "Brahman Identity",
+      "count": 12,
+      "percentage": 9.9
+    },
+    {
+      "context": "Liberation & Freedom",
+      "count": 11,
+      "percentage": 9.1
+    }
+  ]
+}

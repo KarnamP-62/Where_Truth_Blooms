@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where Truth Blooms - Upanishads Visualization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Fixed Navigation Tabs -->
+    <nav class="nav-tabs">
+        <button class="tab-btn active" onclick="scrollToSection('intro')">Introduction</button>
+        <button class="tab-btn" onclick="scrollToSection('flowers')">Truth Flowers</button>
+        <button class="tab-btn" onclick="scrollToSection('emotions')">Emotions</button>
+        <button class="tab-btn" onclick="scrollToSection('context')">Philosophical Context</button>
+    </nav>
+
+    <!-- Scrollable Content Container -->
+    <div class="scroll-container">
+
+        <!-- Section 1: Introduction -->
+        <section id="intro-section" class="scroll-section intro-section">
+            <!-- Title Page -->
+            <div class="intro-page intro-title-page">
+                <div class="intro-content title-content">
+                    <h2>Where Truth Blooms</h2>
+                    <p class="intro-tagline">A computational exploration of how truth unfolds<br>across the verses of the Upanishads</p>
+                    <p class="author">Priyanka Karnam</p>
+                    <p class="date">March 15, 2026</p>
+                </div>
+                <div class="scroll-hint">
+                    <span>Scroll to explore</span>
+                    <div class="scroll-arrow">&#x25BC;</div>
+                </div>
+            </div>
+
+            <!-- Overview Page -->
+            <div class="intro-page intro-overview-page">
+                <div class="intro-content">
+                    <p class="intro-lead">
+                        The Upanishads are late Vedic Sanskrit texts that form the concluding, wisdom-centered portion of the Vedas. Composed roughly between 700–300 BCE, they explore themes of meditation, philosophy, consciousness, and the nature of reality. A central teaching is that the individual soul, Atman, is identical to the ultimate universal reality, Brahman. The texts also engage with concepts such as karma, reincarnation, and enlightenment, emphasizing knowledge and self-realization over ritual practices.
+                    </p>
+                    <p class="intro-text">
+                        Traditionally, 108 Upanishads are recognized and associated with the four Vedas: Rigveda, Yajurveda, Samaveda, and Atharvaveda.
+                    </p>
+                    <p class="intro-text">
+                        This project applies natural language processing (NLP) to examine the emotional and philosophical contexts surrounding the concept of "truth" across the Upanishadic texts. The visualizations explore how truth is expressed within the Upanishads, highlighting both its emotional resonance and its philosophical dimensions.
+                    </p>
+                    <p class="intro-text">
+                        To support this analysis, the TF-IDF method is used to identify the frequency and importance of key terms. Sentence-BERT (SBERT) is applied to understand semantic and philosophical context through sentence embeddings, while semantic analysis techniques are used to interpret the emotional tone of sentences containing references to truth.
+                    </p>
+                    <p class="intro-text">
+                        The source text for this analysis is the compilation of 108 Upanishads, available here: <a href="https://tomdas.com/wp-content/uploads/2022/01/108-upanishads.pdf" target="_blank" style="color: #526B0B;">https://tomdas.com/wp-content/uploads/2022/01/108-upanishads.pdf</a>
+                    </p>
+                    <p class="intro-text">
+                        The analysis focuses on several key terms associated with the idea of truth: <strong>Truth</strong>, <strong>Satya</strong> (the Sanskrit term for truth), <strong>Sat</strong> (meaning true, real, abiding, or being), and <strong>Tattva</strong>, a foundational Sanskrit philosophical concept meaning "thatness," "principle," "reality," or "truth." These words capture different dimensions of truth as expressed within the Upanishadic texts.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Truth Flowers -->
+        <section id="flowers-section" class="scroll-section viz-section">
+            <div class="sticky-viz">
+                <div id="visualization"></div>
+                <div class="flowers-legend">
+                    <div class="legend-item-inline">
+                        <span class="legend-circle-yellow"></span>
+                        <span>Upanishad</span>
+                    </div>
+                    <div class="legend-item-inline">
+                        <svg class="legend-petal" width="20" height="16" viewBox="0 0 20 16">
+                            <path d="M2,8 C4,2 10,0 18,8 C10,16 4,14 2,8" fill="#CD5A19" stroke="#FCB71C" stroke-width="0.5"/>
+                        </svg>
+                        <span>Sentence containing "truth"</span>
+                    </div>
+                    <div class="legend-veda-colors">
+                        <div class="legend-item-inline">
+                            <span class="legend-circle" style="background: #DC080B;"></span>
+                            <span>Rig Veda</span>
+                        </div>
+                        <div class="legend-item-inline">
+                            <span class="legend-circle" style="background: #921400;"></span>
+                            <span>Yajur Veda</span>
+                        </div>
+                        <div class="legend-item-inline">
+                            <span class="legend-circle" style="background: #CD5A19;"></span>
+                            <span>Sama Veda</span>
+                        </div>
+                        <div class="legend-item-inline">
+                            <span class="legend-circle" style="background: #BC2D12;"></span>
+                            <span>Atharva Veda</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="narrative-overlay">
+                <div class="narrative-step">
+                    <h3>Flowers of Truth Across the Vedas</h3>
+                    <p>
+                        This visualization presents the four Vedas and their associated branches containing the Upanishads. Each petal indicates the occurrence of the word "truth" (including related terms) within that text. The four Vedas - <span style="color: #DC080B; font-weight: 600;">Rig Veda</span>, <span style="color: #921400; font-weight: 600;">Yajur Veda</span>, <span style="color: #CD5A19; font-weight: 600;">Sama Veda</span> and <span style="color: #BC2D12; font-weight: 600;">Atharva Veda</span> are distinguished using four different colors, allowing viewers to see how references to truth are distributed across the Upanishads connected to each Vedic tradition.
+                    </p>
+                </div>
+                <div class="narrative-step" id="overview-panel">
+                    <h3>Overview</h3>
+                    <div class="stats-overview">
+                        <div class="stat-block">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Vedas</span>
+                        </div>
+                        <div class="stat-block">
+                            <span class="stat-number">78</span>
+                            <span class="stat-label">Upanishads</span>
+                        </div>
+                        <div class="stat-block">
+                            <span class="stat-number">458</span>
+                            <span class="stat-label">Truth Sentences</span>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.85rem; color: #666; margin-top: 1rem;">Click a Veda to see its top 10 words around truth:</p>
+                    <div class="words-tabs">
+                        <button class="words-tab active" data-veda="Rigveda" style="background: #DC080B;">Rigveda</button>
+                        <button class="words-tab" data-veda="Yajurveda" style="background: #921400;">Yajurveda</button>
+                        <button class="words-tab" data-veda="Samaveda" style="background: #CD5A19;">Samaveda</button>
+                        <button class="words-tab" data-veda="Atharvaveda" style="background: #BC2D12;">Atharvaveda</button>
+                    </div>
+                    <div id="words-bars-container"></div>
+                    <p style="font-size: 0.8rem; color: #888; margin-top: 1rem; font-style: italic;">Hover on the visualization for more information.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Emotions -->
+        <section id="emotions-section" class="scroll-section viz-section">
+            <div class="sticky-viz">
+                <div id="emotions-viz"></div>
+                <div class="emotions-legend">
+                    <div class="legend-item-inline">
+                        <span class="legend-circle" style="background: #526B0B;"></span>
+                        <span>Emotion</span>
+                    </div>
+                    <div class="legend-item-inline">
+                        <svg class="legend-petal" width="14" height="12" viewBox="0 0 20 16">
+                            <path d="M2,8 C4,2 10,0 18,8 C10,16 4,14 2,8" fill="#9E477D" stroke="#D082D5" stroke-width="0.5"/>
+                        </svg>
+                        <span>Sentence containing "truth"</span>
+                    </div>
+                    <div class="legend-veda-colors">
+                        <div class="legend-item-inline">
+                            <span class="legend-circle" style="background: #920E40;"></span>
+                            <span>Rig Veda</span>
+                        </div>
+                        <div class="legend-item-inline">
+                            <span class="legend-circle" style="background: #9E477D;"></span>
+                            <span>Yajur Veda</span>
+                        </div>
+                        <div class="legend-item-inline">
+                            <span class="legend-circle" style="background: #B35CA6;"></span>
+                            <span>Sama Veda</span>
+                        </div>
+                        <div class="legend-item-inline">
+                            <span class="legend-circle" style="background: #D082D5;"></span>
+                            <span>Atharva Veda</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="narrative-overlay">
+                <div class="narrative-step">
+                    <h3>Emotional Landscape of Truth</h3>
+                    <p>
+                        Truth in the Upanishads is not only an intellectual concept but also evokes profound emotional responses. This visualization organizes those responses into five thematic patterns, each associated with a set of emotions. Each plant represents a theme, while the branches of the plant represent different emotions within that theme. The petals on each branch indicate occurrences of sentences containing references to truth. The colors correspond to the four Vedas. Within each branch, petals are arranged vertically according to emotional intensity, with sentences having higher emotion scores placed toward the top of the plant and those with lower emotional scores positioned toward the bottom.
+                    </p>
+                    <ul>
+                        <li><strong>Connection</strong> - Unity, devotion, reverence</li>
+                        <li><strong>Spiritual</strong> - Transcendence, liberation, bliss</li>
+                        <li><strong>Contemplative</strong> - Peace, serenity, detachment</li>
+                        <li><strong>Knowledge</strong> - Understanding, wisdom, enlightenment, wonder, awe</li>
+                        <li><strong>Challenge</strong> - Fear, confusion, longing, determination</li>
+                    </ul>
+                </div>
+                <div class="narrative-step" id="emotion-overview-panel">
+                    <h3>Overview</h3>
+                    <p>
+                        Among all the emotions analyzed, <strong>wisdom</strong> and <strong>unity</strong> show the strongest associations with truth in the Upanishads.
+                    </p>
+                    <p style="font-size: 0.85rem; color: #666; margin-top: 0.8rem;">Click a Veda to see its top 10 emotions:</p>
+                    <div class="veda-tabs">
+                        <button class="veda-tab active" data-veda="Rigveda" style="background: #920E40;">Rigveda</button>
+                        <button class="veda-tab" data-veda="Yajurveda" style="background: #9E477D;">Yajurveda</button>
+                        <button class="veda-tab" data-veda="Samaveda" style="background: #B35CA6;">Samaveda</button>
+                        <button class="veda-tab" data-veda="Atharvaveda" style="background: #D082D5;">Atharvaveda</button>
+                    </div>
+                    <div id="emotion-bars-container"></div>
+                    <p style="font-size: 0.8rem; color: #888; margin-top: 1rem; font-style: italic;">Hover on the visualization for more information.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Philosophical Context -->
+        <section id="context-section" class="scroll-section viz-section">
+            <div class="sticky-viz">
+                <div id="context-viz"></div>
+                <div class="context-legend">
+                    <div class="legend-item-inline">
+                        <span class="legend-circle" style="background: #FCB71C;"></span>
+                        <span>Philosophical Context</span>
+                    </div>
+                    <div class="legend-veda-colors">
+                        <div class="legend-item-inline">
+                            <svg width="14" height="12" viewBox="0 0 14 12">
+                                <line x1="2" y1="6" x2="12" y2="6" stroke="#f8d7da" stroke-width="2"/>
+                            </svg>
+                            <span>Low context score</span>
+                        </div>
+                        <div class="legend-item-inline">
+                            <svg width="14" height="12" viewBox="0 0 14 12">
+                                <line x1="2" y1="6" x2="12" y2="6" stroke="#B5204B" stroke-width="2"/>
+                            </svg>
+                            <span>High context score</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="narrative-overlay">
+                <div class="narrative-step">
+                    <h3>Lotus Pond of Philosophical Truth</h3>
+                    <p>
+                        Each lotus flower represents a distinct philosophical context in which the concept of truth appears within the Upanishadic texts. The four petals of the lotus correspond to the four Vedas. Lines within each petal indicate individual occurrences of truth within sentences from the texts. These lines are arranged from left to right according to their contextual relevance, progressing from lower context scores to higher context scores. The lotus, traditionally a symbol of enlightenment and spiritual awakening, reflects the unfolding of philosophical insight surrounding the concept of truth.
+                    </p>
+                    <ul>
+                        <li><strong>Liberation & Freedom</strong> - Moksha and release from bondage</li>
+                        <li><strong>Cosmic Elements</strong> - Truth in nature and universe</li>
+                        <li><strong>Knowledge & Wisdom</strong> - Jnana and understanding</li>
+                        <li><strong>Sacred Utterances</strong> - Mantras and holy words</li>
+                        <li><strong>Self-Realization</strong> - Atman and inner truth</li>
+                        <li><strong>Teacher-Student</strong> - Transmission of wisdom</li>
+                        <li><strong>Brahman Identity</strong> - Ultimate reality</li>
+                        <li><strong>Ethical Foundation</strong> - Truth as moral principle</li>
+                    </ul>
+                </div>
+                <div class="narrative-step" id="context-overview-panel">
+                    <h3>Overview</h3>
+                    <p>
+                        Among all philosophical contexts, <strong>Cosmic Elements</strong> appears most frequently across the Upanishads, followed by <strong>Knowledge & Wisdom</strong> and <strong>Brahman Identity</strong>.
+                    </p>
+                    <p style="font-size: 0.85rem; color: #666; margin-top: 0.8rem;">Click a Veda to see its philosophical contexts:</p>
+                    <div class="context-tabs">
+                        <button class="context-tab active" data-veda="Rigveda" style="background: #B5204B;">Rigveda</button>
+                        <button class="context-tab" data-veda="Yajurveda" style="background: #B5204B;">Yajurveda</button>
+                        <button class="context-tab" data-veda="Samaveda" style="background: #B5204B;">Samaveda</button>
+                        <button class="context-tab" data-veda="Atharvaveda" style="background: #B5204B;">Atharvaveda</button>
+                    </div>
+                    <div id="context-bars-container"></div>
+                    <p style="font-size: 0.8rem; color: #888; margin-top: 1rem; font-style: italic;">Hover on the visualization for more information.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <div id="tooltip" class="tooltip" style="display:none;"></div>
+
+    <script src="script.js"></script>
+    <script>
+        // Direct tooltip - this runs AFTER script.js
+        console.log("Tooltip script loaded");
+    </script>
+</body>
+</html>
