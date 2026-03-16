@@ -35,13 +35,13 @@ body {
 }
 
 .tab-btn {
-    padding: 0.5rem 1.2rem;
+    padding: calc(0.1rem + 0.35vw) calc(0.2rem + 0.7vw);
     background: rgba(255, 255, 255, 0.9);
     border: 2px solid #526B0B;
     color: #526B0B;
     border-radius: 2rem;
     cursor: pointer;
-    font-size: 0.75rem;
+    font-size: calc(0.1rem + 0.5vw);
     font-weight: 500;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
@@ -115,7 +115,7 @@ body {
 }
 
 .author {
-    font-size: clamp(0.85rem, 1.2vw, 1rem);
+    font-size: calc(0.2rem + 0.7vw);
     color: #333;
     font-weight: 500;
     margin-top: 2.5rem;
@@ -123,7 +123,7 @@ body {
 }
 
 .date {
-    font-size: clamp(0.8rem, 1.1vw, 0.95rem);
+    font-size: calc(0.2rem + 0.6vw);
     color: #555;
     font-weight: 400;
 }
@@ -133,7 +133,7 @@ body {
 }
 
 .intro-content {
-    max-width: 800px;
+    max-width: calc(500px + 20vw);
 }
 
 .intro-overview-page .intro-content {
@@ -142,10 +142,10 @@ body {
 
 .intro-overview-page .intro-lead,
 .intro-overview-page .intro-text {
-    font-size: 1rem;
+    font-size: calc(0.2rem + 0.7vw);
     font-weight: 400;
     color: #444;
-    line-height: 1.8;
+    line-height: 2.1;
     text-align: left;
 }
 
@@ -156,7 +156,7 @@ body {
 }
 
 .intro-content h2 {
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: calc(0.8rem + 2.5vw);
     color: #2A3F01;
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -164,7 +164,7 @@ body {
 }
 
 .intro-tagline {
-    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-size: calc(0.3rem + 1.1vw);
     color: #333;
     line-height: 1.6;
     font-style: normal;
@@ -180,9 +180,9 @@ body {
 }
 
 .intro-lead {
-    font-size: 1rem;
+    font-size: calc(0.2rem + 0.7vw);
     color: #444;
-    line-height: 1.8;
+    line-height: 2.1;
     margin-bottom: 2rem;
 }
 
@@ -201,14 +201,14 @@ body {
 }
 
 .stat-number {
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: calc(0.5rem + 2vw);
     font-weight: 700;
     color: #526B0B;
     line-height: 1;
 }
 
 .stat-label {
-    font-size: 0.9rem;
+    font-size: calc(0.15rem + 0.55vw);
     color: #666;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -216,9 +216,9 @@ body {
 }
 
 .intro-text {
-    font-size: 1rem;
+    font-size: calc(0.2rem + 0.7vw);
     color: #555;
-    line-height: 1.7;
+    line-height: 2.1;
     margin-bottom: 2rem;
 }
 
@@ -226,7 +226,7 @@ body {
     margin-top: auto;
     padding-bottom: 3rem;
     color: #888;
-    font-size: 0.85rem;
+    font-size: calc(0.2rem + 0.55vw);
     text-align: center;
 }
 
@@ -312,7 +312,7 @@ body {
 
 .narrative-step {
     background: rgba(255, 255, 255, 0.95);
-    padding: 2rem;
+    padding: calc(0.6rem + 1vw);
     border-radius: 1rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 80vh;
@@ -324,34 +324,34 @@ body {
 }
 
 .narrative-step h3 {
-    font-size: 1.3rem;
+    font-size: calc(0.3rem + 1vw);
     color: #2A3F01;
-    margin-bottom: 1rem;
+    margin-bottom: calc(0.8rem + 1.2vw);
     font-weight: 600;
 }
 
 .narrative-step p {
-    font-size: 0.95rem;
+    font-size: calc(0.15rem + 0.7vw);
     color: #444;
-    line-height: 1.7;
-    margin-bottom: 0.8rem;
+    line-height: 2;
+    margin-bottom: calc(0.2rem + 0.5vw);
 }
 
 .narrative-step ul {
-    margin: 1rem 0;
-    padding-left: 1.5rem;
+    margin: calc(0.2rem + 0.6vw) 0;
+    padding-left: calc(0.3rem + 0.8vw);
 }
 
 .narrative-step li {
-    font-size: 0.9rem;
-    color: #555;
-    line-height: 1.8;
-    margin-bottom: 0.4rem;
+    font-size: calc(0.15rem + 0.7vw);
+    color: #444;
+    line-height: 2;
+    margin-bottom: calc(0.05rem + 0.25vw);
 }
 
 .narrative-step em {
     color: #666;
-    font-size: 0.85rem;
+    font-size: calc(0.1rem + 0.6vw);
 }
 
 /* Inline legend in narrative */
@@ -365,85 +365,85 @@ body {
 /* Flowers legend positioned on visualization */
 .flowers-legend {
     position: absolute;
-    top: 1.5rem;
-    left: 1.5rem;
+    top: calc(0.2rem + 1vw);
+    right: calc(0.2rem + 1vw);
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: calc(0.05rem + 0.25vw);
     background: rgba(241, 237, 226, 0.95);
-    padding: 0.5rem 0.7rem;
+    padding: calc(0.15rem + 0.5vw) calc(0.2rem + 0.55vw);
     border-radius: 6px;
     z-index: 10;
     width: auto;
     height: auto;
     min-height: auto;
     pointer-events: none;
-    font-size: 0.7rem;
+    font-size: calc(0.1rem + 0.55vw);
 }
 
 .flowers-legend .legend-item-inline {
-    gap: 0.3rem;
-    font-size: 0.7rem;
+    gap: calc(0.05rem + 0.25vw);
+    font-size: calc(0.1rem + 0.55vw);
 }
 
 .flowers-legend .legend-circle-yellow {
-    width: 10px;
-    height: 10px;
-    min-width: 10px;
-    min-height: 10px;
+    width: calc(2px + 0.6vw);
+    height: calc(2px + 0.6vw);
+    min-width: calc(2px + 0.6vw);
+    min-height: calc(2px + 0.6vw);
 }
 
 .flowers-legend .legend-petal {
-    width: 14px;
-    height: 12px;
+    width: calc(3px + 0.9vw);
+    height: calc(2px + 0.7vw);
 }
 
 /* Emotions legend positioned on visualization */
 .emotions-legend {
     position: absolute;
-    top: 1.5rem;
-    left: 1.5rem;
+    top: calc(0.2rem + 1vw);
+    right: calc(0.2rem + 1vw);
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: calc(0.05rem + 0.25vw);
     background: rgba(241, 237, 226, 0.95);
-    padding: 0.5rem 0.7rem;
+    padding: calc(0.15rem + 0.5vw) calc(0.2rem + 0.55vw);
     border-radius: 6px;
     z-index: 10;
     width: auto;
     height: auto;
     min-height: auto;
     pointer-events: none;
-    font-size: 0.7rem;
+    font-size: calc(0.1rem + 0.55vw);
 }
 
 .emotions-legend .legend-item-inline {
-    gap: 0.3rem;
-    font-size: 0.7rem;
+    gap: calc(0.05rem + 0.25vw);
+    font-size: calc(0.1rem + 0.55vw);
 }
 
 /* Context legend positioned on visualization */
 .context-legend {
     position: absolute;
-    top: 1.5rem;
-    left: 1.5rem;
+    top: calc(0.2rem + 1vw);
+    right: calc(0.2rem + 1vw);
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: calc(0.05rem + 0.25vw);
     background: rgba(241, 237, 226, 0.95);
-    padding: 0.5rem 0.7rem;
+    padding: calc(0.15rem + 0.5vw) calc(0.2rem + 0.55vw);
     border-radius: 6px;
     z-index: 10;
     width: auto;
     height: auto;
     min-height: auto;
     pointer-events: none;
-    font-size: 0.7rem;
+    font-size: calc(0.1rem + 0.55vw);
 }
 
 .context-legend .legend-item-inline {
-    gap: 0.3rem;
-    font-size: 0.7rem;
+    gap: calc(0.05rem + 0.25vw);
+    font-size: calc(0.1rem + 0.55vw);
 }
 
 .legend-item-inline {
@@ -471,19 +471,19 @@ body {
 }
 
 .legend-veda-colors {
-    margin-top: 0.3rem;
-    padding-top: 0.3rem;
+    margin-top: calc(0.1rem + 0.1vw);
+    padding-top: calc(0.1rem + 0.1vw);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    gap: 0.2rem;
+    gap: calc(0.08rem + 0.08vw);
 }
 
 .legend-circle {
-    width: 8px;
-    height: 8px;
-    min-width: 8px;
-    min-height: 8px;
+    width: calc(2px + 0.5vw);
+    height: calc(2px + 0.5vw);
+    min-width: calc(2px + 0.5vw);
+    min-height: calc(2px + 0.5vw);
     border-radius: 50%;
     display: inline-block;
     flex-shrink: 0;
@@ -493,8 +493,9 @@ body {
 .stats-overview {
     display: flex;
     justify-content: space-around;
-    gap: 1rem;
-    margin-top: 1rem;
+    gap: calc(0.4rem + 0.4vw);
+    margin-top: calc(0.4rem + 0.4vw);
+    margin-bottom: calc(0.8rem + 1vw);
 }
 
 .stat-block {
@@ -505,18 +506,18 @@ body {
 }
 
 .stat-block .stat-number {
-    font-size: 2rem;
+    font-size: calc(0.5rem + 1.3vw);
     font-weight: 700;
     color: #526B0B;
     line-height: 1;
 }
 
 .stat-block .stat-label {
-    font-size: 0.8rem;
+    font-size: calc(0.1rem + 0.5vw);
     color: #666;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-top: 0.3rem;
+    margin-top: calc(0.05rem + 0.2vw);
 }
 
 /* Veda dots in narrative */
@@ -632,18 +633,18 @@ body {
 }
 
 .veda-tab {
-    padding: 0.3rem 0.6rem;
+    padding: calc(0.05rem + 0.25vw) calc(0.1rem + 0.45vw);
     border: none;
     border-radius: 4px;
     color: white;
-    font-size: 0.75rem;
+    font-size: calc(0.1rem + 0.5vw);
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.35;
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .veda-tab:hover {
-    opacity: 0.85;
+    opacity: 0.7;
 }
 
 .veda-tab.active {
@@ -653,16 +654,16 @@ body {
 
 /* Emotion bars */
 #emotion-bars-container {
-    margin-top: 0.8rem;
+    margin-top: calc(0.3rem + 0.3vw);
 }
 
 .emotion-bar-item {
     display: grid;
-    grid-template-columns: 90px 1fr 40px;
+    grid-template-columns: calc(20px + 5vw) 1fr calc(10px + 2vw);
     align-items: center;
-    gap: 0.4rem;
-    margin-bottom: 0.5rem;
-    font-size: 0.8rem;
+    gap: calc(0.05rem + 0.3vw);
+    margin-bottom: calc(0.1rem + 0.3vw);
+    font-size: calc(0.1rem + 0.5vw);
 }
 
 .emotion-bar-label {
@@ -672,7 +673,7 @@ body {
 }
 
 .emotion-bar-wrapper {
-    height: 12px;
+    height: calc(4px + 0.5vw);
     background: #eee;
     border-radius: 6px;
     overflow: hidden;
@@ -686,7 +687,7 @@ body {
 
 .emotion-bar-value {
     color: #666;
-    font-size: 0.75rem;
+    font-size: calc(0.1rem + 0.45vw);
     text-align: right;
 }
 
@@ -700,18 +701,18 @@ body {
 }
 
 .words-tab {
-    padding: 0.3rem 0.6rem;
+    padding: calc(0.05rem + 0.25vw) calc(0.1rem + 0.45vw);
     border: none;
     border-radius: 4px;
     color: white;
-    font-size: 0.75rem;
+    font-size: calc(0.1rem + 0.5vw);
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.35;
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .words-tab:hover {
-    opacity: 0.85;
+    opacity: 0.7;
 }
 
 .words-tab.active {
@@ -726,11 +727,11 @@ body {
 
 .words-bar-item {
     display: grid;
-    grid-template-columns: 90px 1fr 40px;
+    grid-template-columns: calc(20px + 5vw) 1fr calc(10px + 2vw);
     align-items: center;
-    gap: 0.4rem;
-    margin-bottom: 0.5rem;
-    font-size: 0.8rem;
+    gap: calc(0.05rem + 0.3vw);
+    margin-bottom: calc(0.1rem + 0.3vw);
+    font-size: calc(0.1rem + 0.5vw);
 }
 
 .words-bar-label {
@@ -740,7 +741,7 @@ body {
 }
 
 .words-bar-wrapper {
-    height: 12px;
+    height: calc(4px + 0.5vw);
     background: #eee;
     border-radius: 6px;
     overflow: hidden;
@@ -754,7 +755,7 @@ body {
 
 .words-bar-value {
     color: #666;
-    font-size: 0.75rem;
+    font-size: calc(0.1rem + 0.45vw);
     text-align: right;
 }
 
@@ -766,18 +767,18 @@ body {
 }
 
 .context-tab {
-    padding: 0.3rem 0.6rem;
+    padding: calc(0.05rem + 0.25vw) calc(0.1rem + 0.45vw);
     border: none;
     border-radius: 4px;
     color: white;
-    font-size: 0.75rem;
+    font-size: calc(0.1rem + 0.5vw);
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.35;
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .context-tab:hover {
-    opacity: 0.85;
+    opacity: 0.7;
 }
 
 .context-tab.active {
@@ -792,21 +793,21 @@ body {
 
 .context-bar-item {
     display: grid;
-    grid-template-columns: 130px 1fr 40px;
+    grid-template-columns: calc(25px + 7vw) 1fr calc(10px + 2vw);
     align-items: center;
-    gap: 0.4rem;
-    margin-bottom: 0.5rem;
-    font-size: 0.8rem;
+    gap: calc(0.05rem + 0.3vw);
+    margin-bottom: calc(0.1rem + 0.3vw);
+    font-size: calc(0.1rem + 0.5vw);
 }
 
 .context-bar-label {
     color: #333;
     font-weight: 500;
-    font-size: 0.7rem;
+    font-size: calc(0.1rem + 0.45vw);
 }
 
 .context-bar-wrapper {
-    height: 12px;
+    height: calc(4px + 0.5vw);
     background: #eee;
     border-radius: 6px;
     overflow: hidden;
@@ -820,7 +821,7 @@ body {
 
 .context-bar-value {
     color: #666;
-    font-size: 0.75rem;
+    font-size: calc(0.1rem + 0.45vw);
     text-align: right;
 }
 
@@ -889,10 +890,10 @@ body {
     background: white;
     border: 2px solid #526B0B;
     border-radius: 8px;
-    padding: 15px;
+    padding: calc(0.5rem + 0.4vw);
     color: #333;
-    font-size: 14px;
-    max-width: 320px;
+    font-size: calc(0.6rem + 0.25vw);
+    max-width: calc(200px + 8vw);
     pointer-events: none;
     z-index: 999999;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -901,7 +902,7 @@ body {
 .tooltip h3 {
     margin-bottom: 0.625rem;
     color: #2A3F01;
-    font-size: 1rem;
+    font-size: calc(0.65rem + 0.25vw);
     border-bottom: 1px solid #ddd;
     padding-bottom: 0.5rem;
 }

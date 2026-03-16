@@ -45,20 +45,16 @@
                         The Upanishads are late Vedic Sanskrit texts that form the concluding, wisdom-centered portion of the Vedas. Composed roughly between 700–300 BCE, they explore themes of meditation, philosophy, consciousness, and the nature of reality. A central teaching is that the individual soul, Atman, is identical to the ultimate universal reality, Brahman. The texts also engage with concepts such as karma, reincarnation, and enlightenment, emphasizing knowledge and self-realization over ritual practices.
                     </p>
                     <p class="intro-text">
-                        Traditionally, 108 Upanishads are recognized and associated with the four Vedas: Rigveda, Yajurveda, Samaveda, and Atharvaveda.
+                        Traditionally, 108 Upanishads are recognized and associated with the four Vedas: Rigveda, Yajurveda, Samaveda, and Atharvaveda.This project applies natural language processing (NLP) to examine the emotional and philosophical contexts surrounding the concept of "truth" across the Upanishadic texts. The visualizations explore how truth is expressed within the Upanishads, highlighting both its emotional resonance and its philosophical dimensions.
                     </p>
                     <p class="intro-text">
-                        This project applies natural language processing (NLP) to examine the emotional and philosophical contexts surrounding the concept of "truth" across the Upanishadic texts. The visualizations explore how truth is expressed within the Upanishads, highlighting both its emotional resonance and its philosophical dimensions.
-                    </p>
-                    <p class="intro-text">
-                        To support this analysis, the TF-IDF method is used to identify the frequency and importance of key terms. Sentence-BERT (SBERT) is applied to understand semantic and philosophical context through sentence embeddings, while semantic analysis techniques are used to interpret the emotional tone of sentences containing references to truth.
-                    </p>
-                    <p class="intro-text">
-                        The source text for this analysis is the compilation of 108 Upanishads, available here: <a href="https://tomdas.com/wp-content/uploads/2022/01/108-upanishads.pdf" target="_blank" style="color: #526B0B;">https://tomdas.com/wp-content/uploads/2022/01/108-upanishads.pdf</a>
+                        To support this analysis, the TF-IDF method is used to identify the frequency and importance of key terms. Sentence-BERT (SBERT) is applied to understand semantic and philosophical context through sentence embeddings, while semantic analysis techniques are used to interpret the emotional tone of sentences containing references to truth.The source text for this analysis is the compilation of 108 Upanishads, available here: <a href="https://tomdas.com/wp-content/uploads/2022/01/108-upanishads.pdf" target="_blank" style="color: #526B0B;">https://tomdas.com/wp-content/uploads/2022/01/108-upanishads.pdf</a>
                     </p>
                     <p class="intro-text">
                         The analysis focuses on several key terms associated with the idea of truth: <strong>Truth</strong>, <strong>Satya</strong> (the Sanskrit term for truth), <strong>Sat</strong> (meaning true, real, abiding, or being), and <strong>Tattva</strong>, a foundational Sanskrit philosophical concept meaning "thatness," "principle," "reality," or "truth." These words capture different dimensions of truth as expressed within the Upanishadic texts.
                     </p>
+                    <p class="intro-text">
+                       <strong>Did you know?</strong><br>The Indian national motto, "Satyameva Jayate" meaning "Truth alone triumphs", is derived from the Mundaka Upanishad, a text associated with the Atharvaveda.</p>
                 </div>
             </div>
         </section>
@@ -102,7 +98,7 @@
                 <div class="narrative-step">
                     <h3>Flowers of Truth Across the Vedas</h3>
                     <p>
-                        This visualization presents the four Vedas and their associated branches containing the Upanishads. Each petal indicates the occurrence of the word "truth" (including related terms) within that text. The four Vedas - <span style="color: #DC080B; font-weight: 600;">Rig Veda</span>, <span style="color: #921400; font-weight: 600;">Yajur Veda</span>, <span style="color: #CD5A19; font-weight: 600;">Sama Veda</span> and <span style="color: #BC2D12; font-weight: 600;">Atharva Veda</span> are distinguished using four different colors, allowing viewers to see how references to truth are distributed across the Upanishads connected to each Vedic tradition.
+                        This visualization presents the four Vedas and their associated branches containing the Upanishads. Each petal indicates the occurrence of the word "truth" (including related terms) within that text. The four Vedas - <span style="color: #DC080B; font-weight: 600;">Rig Veda</span>, <span style="color: #921400; font-weight: 600;">Yajur Veda</span>, <span style="color: #CD5A19; font-weight: 600;">Sama Veda</span> and <span style="color: #BC2D12; font-weight: 600;">Atharva Veda</span> are distinguished using four different colors, allowing viewers to see how references to truth are distributed across the Upanishads connected to each Vedic tradition. It is also important to note that the Yajurveda is the largest text composition compared to the other Vedas.
                     </p>
                 </div>
                 <div class="narrative-step" id="overview-panel">
@@ -121,7 +117,7 @@
                             <span class="stat-label">Truth Sentences</span>
                         </div>
                     </div>
-                    <p style="font-size: 0.85rem; color: #666; margin-top: 1rem;">Click a Veda to see its top 10 words around truth:</p>
+                    <p>Click a Veda to see its top 10 words around truth:</p>
                     <div class="words-tabs">
                         <button class="words-tab active" data-veda="Rigveda" style="background: #DC080B;">Rigveda</button>
                         <button class="words-tab" data-veda="Yajurveda" style="background: #921400;">Yajurveda</button>
@@ -129,7 +125,7 @@
                         <button class="words-tab" data-veda="Atharvaveda" style="background: #BC2D12;">Atharvaveda</button>
                     </div>
                     <div id="words-bars-container"></div>
-                    <p style="font-size: 0.8rem; color: #888; margin-top: 1rem; font-style: italic;">Hover on the visualization for more information.</p>
+                    <p style="font-size: 0.65rem; color: #888; margin-top: 1rem; font-style: italic;">Hover on the visualization for more information.</p>
                 </div>
             </div>
         </section>
@@ -188,7 +184,7 @@
                     <p>
                         Among all the emotions analyzed, <strong>wisdom</strong> and <strong>unity</strong> show the strongest associations with truth in the Upanishads.
                     </p>
-                    <p style="font-size: 0.85rem; color: #666; margin-top: 0.8rem;">Click a Veda to see its top 10 emotions:</p>
+                    <p>Click a Veda to see its top 10 emotions:</p>
                     <div class="veda-tabs">
                         <button class="veda-tab active" data-veda="Rigveda" style="background: #920E40;">Rigveda</button>
                         <button class="veda-tab" data-veda="Yajurveda" style="background: #9E477D;">Yajurveda</button>
@@ -196,7 +192,7 @@
                         <button class="veda-tab" data-veda="Atharvaveda" style="background: #D082D5;">Atharvaveda</button>
                     </div>
                     <div id="emotion-bars-container"></div>
-                    <p style="font-size: 0.8rem; color: #888; margin-top: 1rem; font-style: italic;">Hover on the visualization for more information.</p>
+                    <p style="font-size: 0.65rem; color: #888; margin-top: 1rem; font-style: italic;">Hover on the visualization for more information.</p>
                 </div>
             </div>
         </section>
@@ -248,7 +244,7 @@
                     <p>
                         Among all philosophical contexts, <strong>Cosmic Elements</strong> appears most frequently across the Upanishads, followed by <strong>Knowledge & Wisdom</strong> and <strong>Brahman Identity</strong>.
                     </p>
-                    <p style="font-size: 0.85rem; color: #666; margin-top: 0.8rem;">Click a Veda to see its philosophical contexts:</p>
+                    <p>Click a Veda to see its philosophical contexts:</p>
                     <div class="context-tabs">
                         <button class="context-tab active" data-veda="Rigveda" style="background: #B5204B;">Rigveda</button>
                         <button class="context-tab" data-veda="Yajurveda" style="background: #B5204B;">Yajurveda</button>
@@ -256,7 +252,7 @@
                         <button class="context-tab" data-veda="Atharvaveda" style="background: #B5204B;">Atharvaveda</button>
                     </div>
                     <div id="context-bars-container"></div>
-                    <p style="font-size: 0.8rem; color: #888; margin-top: 1rem; font-style: italic;">Hover on the visualization for more information.</p>
+                    <p style="font-size: 0.65rem; color: #888; margin-top: 1rem; font-style: italic;">Hover on the visualization for more information.</p>
                 </div>
             </div>
         </section>

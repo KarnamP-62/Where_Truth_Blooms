@@ -72,6 +72,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize intro as active
     updateActiveTab('intro-section');
+
+    // Handle window resize - reinitialize visualizations
+    let resizeTimeout;
+    window.addEventListener('resize', function() {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(function() {
+            // Clear and reinitialize all visualizations
+            if (vizInitialized.flowers) {
+                document.getElementById('visualization').innerHTML = '';
+                vizInitialized.flowers = false;
+                initFlowersViz();
+                vizInitialized.flowers = true;
+            }
+            if (vizInitialized.emotions) {
+                document.getElementById('emotions-viz').innerHTML = '';
+                vizInitialized.emotions = false;
+                initEmotionsViz();
+                vizInitialized.emotions = true;
+            }
+            if (vizInitialized.context) {
+                document.getElementById('context-viz').innerHTML = '';
+                vizInitialized.context = false;
+                initContextViz();
+                vizInitialized.context = true;
+            }
+        }, 300);
+    });
 });
 
 // ==================== COLOR SCHEMES ====================
@@ -90,8 +117,20 @@ function showTooltipAt(event, html) {
     if (tip) {
         tip.innerHTML = html;
         tip.style.display = 'block';
+
+        // Check if tooltip would go off the bottom of the screen
+        const tipHeight = tip.offsetHeight || 150; // estimate if not yet rendered
+        const spaceBelow = window.innerHeight - event.clientY;
+
         tip.style.left = (event.clientX + 15) + 'px';
-        tip.style.top = (event.clientY + 15) + 'px';
+
+        if (spaceBelow < tipHeight + 30) {
+            // Show tooltip above cursor
+            tip.style.top = (event.clientY - tipHeight - 15) + 'px';
+        } else {
+            // Show tooltip below cursor
+            tip.style.top = (event.clientY + 15) + 'px';
+        }
     }
 }
 
@@ -100,6 +139,21 @@ function hideTooltipNow() {
     if (tip) {
         tip.style.display = 'none';
     }
+}
+
+// Helper function to extract truth words from text
+function extractTruthWords(text) {
+    const truthTerms = ['truth', 'satya', 'sat', 'tattva', 'tattvas', 'satyam'];
+    const foundWords = [];
+    const lowerText = text.toLowerCase();
+
+    truthTerms.forEach(term => {
+        if (lowerText.includes(term)) {
+            foundWords.push(term);
+        }
+    });
+
+    return foundWords.length > 0 ? foundWords.join(', ') : 'truth';
 }
 
 
@@ -608,9 +662,9 @@ function initEmotionsViz() {
     const container = document.getElementById('emotions-viz');
     const containerRect = container.getBoundingClientRect();
 
-    // Use actual container width (70% of viewport)
-    const eWidth = containerRect.width || window.innerWidth * 0.65;
-    const eHeight = Math.max(containerRect.height, 500, window.innerHeight * 0.7);
+    // Responsive dimensions - use full container size
+    const eWidth = Math.max(containerRect.width, window.innerWidth * 0.65);
+    const eHeight = Math.max(containerRect.height, window.innerHeight * 0.85);
 
     console.log('Initializing Emotions:', eWidth, eHeight);
 
@@ -637,10 +691,8 @@ function initEmotionsViz() {
 
     const emotionsSvg = d3.select("#emotions-viz")
         .append("svg")
-        .attr("width", "100%")
-        .attr("height", "100%")
-        .attr("viewBox", `0 0 ${eWidth} ${eHeight}`)
-        .attr("preserveAspectRatio", "xMinYMid meet");
+        .attr("width", eWidth)
+        .attr("height", eHeight);
 
     d3.json("emotions_data.json").then(data => {
         const categories = data.children;
@@ -648,7 +700,7 @@ function initEmotionsViz() {
         const leftPadding = eWidth * 0.1;
         const usableWidth = eWidth * 0.8;
         const plantSpacing = usableWidth / (categories.length - 1);
-        const groundY = eHeight * 0.82;
+        const groundY = eHeight * 0.88;
 
         let maxEmotionSentences = 0;
         categories.forEach(cat => {
@@ -658,6 +710,8 @@ function initEmotionsViz() {
             });
         });
 
+        const stemWidth = eWidth * 0.003;
+
         categories.forEach((category, catIdx) => {
             const plantX = leftPadding + plantSpacing * catIdx;
             const stemColor = "#565320";
@@ -665,25 +719,25 @@ function initEmotionsViz() {
 
             const emotions = category.children;
             const totalBranches = emotions.length;
-            const spreadWidth = 50 + totalBranches * 25;
+            const spreadWidth = eWidth * 0.04 + totalBranches * eWidth * 0.02;
 
             emotions.forEach((emotion, emIdx) => {
                 const leafColor = emotionColors[emotion.name] || "#90EE90";
 
                 const sentences = emotion.sentences || [];
                 const sentenceCount = sentences.length;
-                const petalSpacing = 8;
-                const minBranchHeight = 25;
+                const petalSpacing = eHeight * 0.012;
+                const minBranchHeight = eHeight * 0.04;
                 const branchHeight = Math.max(minBranchHeight, sentenceCount * petalSpacing);
 
                 const branchTopX = plantX + (emIdx - (totalBranches - 1) / 2) * (spreadWidth / Math.max(totalBranches - 1, 1));
                 const branchTopY = baseY - branchHeight;
 
-                const curveHeight = 60 + emIdx * 8;
+                const curveHeight = eHeight * 0.08 + emIdx * eHeight * 0.012;
                 const ctrlX = branchTopX;
                 const ctrlY = baseY - Math.min(curveHeight, branchHeight * 0.3);
 
-                const waveAmount = 8 + Math.random() * 6;
+                const waveAmount = eWidth * 0.008 + Math.random() * eWidth * 0.006;
                 const waveDirection = emIdx % 2 === 0 ? 1 : -1;
                 const midY1 = ctrlY - (ctrlY - branchTopY) * 0.33;
                 const midY2 = ctrlY - (ctrlY - branchTopY) * 0.66;
@@ -698,24 +752,25 @@ function initEmotionsViz() {
                                   ${branchTopX - waveAmount * waveDirection * 0.5} ${midY2}
                                   ${branchTopX} ${branchTopY}`)
                     .attr("stroke", stemColor)
-                    .attr("stroke-width", 3)
+                    .attr("stroke-width", stemWidth)
                     .attr("stroke-linecap", "round")
                     .attr("fill", "none");
 
+                const nodeRadius = eWidth * 0.006;
                 emotionsSvg.append("circle")
                     .attr("cx", branchTopX)
                     .attr("cy", ctrlY)
-                    .attr("r", 6)
+                    .attr("r", nodeRadius)
                     .attr("fill", "#2A3F01")
                     .attr("stroke", "#2A3F01")
-                    .attr("stroke-width", 1.5)
+                    .attr("stroke-width", eWidth * 0.0015)
                     .style("cursor", "pointer")
                     .on("mouseover", function(event) {
-                        d3.select(this).attr("r", 8);
+                        d3.select(this).attr("r", nodeRadius * 1.3);
                         showTooltipAt(event, `<h3>${emotion.name}</h3><p>Category: ${category.name}</p><p>Count: ${emotion.count} sentences</p>`);
                     })
                     .on("mouseout", function() {
-                        d3.select(this).attr("r", 6);
+                        d3.select(this).attr("r", nodeRadius);
                         hideTooltipNow();
                     })
                     .on("mousemove", function(event) {
@@ -744,14 +799,14 @@ function initEmotionsViz() {
                         dropY = lineTop + 5;
                         horizontalOffset = totalSentences === 1 ? 0 : (sIdx === 0 ? -2 : 2);
                     } else {
-                        const padding = 15;
+                        const padding = eHeight * 0.02;
                         const availableHeight = lineHeight - padding * 2;
                         const petalGap = availableHeight / (totalSentences - 1);
                         dropY = lineBottom - padding - (sIdx * petalGap);
                         horizontalOffset = 0;
                     }
-                    const dropHeight = 32;
-                    const dropWidth = 12;
+                    const dropHeight = eHeight * 0.045;
+                    const dropWidth = eWidth * 0.012;
 
                     const petalColor = vedaPetalColors[sentence.veda] || leafColor;
 
@@ -782,9 +837,11 @@ function initEmotionsViz() {
                         .style("cursor", "pointer")
                         .on("mouseover", function(event) {
                             d3.select(this).attr("opacity", 1).attr("stroke-width", 1.5);
+                            const truthWord = extractTruthWords(sentence.text);
                             showTooltipAt(event, `<h3>${emotion.name}</h3>
-                                       <p><strong>Score:</strong> ${score.toFixed(2)}</p>
                                        <p><strong>Veda:</strong> ${sentence.veda}</p>
+                                       <p><strong>Sentiment Score:</strong> ${score.toFixed(2)}</p>
+                                       <p><strong>Truth Word:</strong> <span class="truth-word">${truthWord}</span></p>
                                        <p>${sentence.text}</p>`);
                         })
                         .on("mouseout", function() {
@@ -792,9 +849,11 @@ function initEmotionsViz() {
                             hideTooltipNow();
                         })
                         .on("mousemove", function(event) {
+                            const truthWord = extractTruthWords(sentence.text);
                             showTooltipAt(event, `<h3>${emotion.name}</h3>
-                                       <p><strong>Score:</strong> ${score.toFixed(2)}</p>
                                        <p><strong>Veda:</strong> ${sentence.veda}</p>
+                                       <p><strong>Sentiment Score:</strong> ${score.toFixed(2)}</p>
+                                       <p><strong>Truth Word:</strong> <span class="truth-word">${truthWord}</span></p>
                                        <p>${sentence.text}</p>`);
                         });
                 });
@@ -804,25 +863,25 @@ function initEmotionsViz() {
                 .attr("x1", plantX)
                 .attr("y1", baseY)
                 .attr("x2", plantX)
-                .attr("y2", baseY + 40)
+                .attr("y2", baseY + eHeight * 0.05)
                 .attr("stroke", stemColor)
-                .attr("stroke-width", 3)
+                .attr("stroke-width", stemWidth)
                 .attr("stroke-linecap", "round");
 
             emotionsSvg.append("text")
                 .attr("x", plantX)
-                .attr("y", groundY + 70)
+                .attr("y", groundY + eHeight * 0.08)
                 .attr("text-anchor", "middle")
-                .attr("font-size", "14px")
+                .attr("font-size", `${eWidth * 0.012}px`)
                 .attr("font-weight", "bold")
                 .attr("fill", "#333")
                 .text(category.name);
 
             emotionsSvg.append("text")
                 .attr("x", plantX)
-                .attr("y", groundY + 88)
+                .attr("y", groundY + eHeight * 0.1)
                 .attr("text-anchor", "middle")
-                .attr("font-size", "11px")
+                .attr("font-size", `${eWidth * 0.009}px`)
                 .attr("fill", "#666")
                 .text(`(${category.count} sentences)`);
         });
@@ -838,9 +897,9 @@ function initContextViz() {
     const container = document.getElementById('context-viz');
     const containerRect = container.getBoundingClientRect();
 
-    // Use larger fallbacks
-    const cWidth = Math.max(containerRect.width, 600, window.innerWidth * 0.55);
-    const cHeight = Math.max(containerRect.height, 500, window.innerHeight * 0.7);
+    // Responsive dimensions - use full container size
+    const cWidth = Math.max(containerRect.width, window.innerWidth * 0.65);
+    const cHeight = Math.max(containerRect.height, window.innerHeight * 0.85);
 
     console.log('Initializing Context:', cWidth, cHeight);
 
@@ -854,14 +913,13 @@ function initContextViz() {
 
     const contextSvg = d3.select("#context-viz")
         .append("svg")
-        .attr("width", "100%")
-        .attr("height", "100%")
-        .attr("viewBox", `0 0 ${cWidth} ${cHeight}`)
-        .attr("preserveAspectRatio", "xMidYMid meet");
+        .attr("width", cWidth)
+        .attr("height", cHeight);
 
     d3.json("context_data.json").then(data => {
         const contexts = data.children;
         const stemColor = "#2d5a27";
+        const stemWidth = cWidth * 0.003;
         const pondBottom = cHeight * 0.92;
 
         const lotusPositions = [
@@ -896,16 +954,16 @@ function initContextViz() {
 
             const maxCount = Math.max(...Object.values(vedaCounts), 1);
 
-            const stemBaseX = lotusX + (Math.random() - 0.5) * 30;
+            const stemBaseX = lotusX + (Math.random() - 0.5) * cWidth * 0.03;
             const curveDirection = lotusX < cWidth / 2 ? 1 : -1;
-            const curveAmount = 20 + Math.random() * 15;
+            const curveAmount = cWidth * 0.02 + Math.random() * cWidth * 0.015;
 
             contextSvg.append("path")
                 .attr("d", `M ${stemBaseX} ${pondBottom}
                             Q ${stemBaseX + curveDirection * curveAmount} ${(pondBottom + lotusY) / 2}
-                              ${lotusX} ${lotusY + 15}`)
+                              ${lotusX} ${lotusY}`)
                 .attr("stroke", stemColor)
-                .attr("stroke-width", 3)
+                .attr("stroke-width", stemWidth)
                 .attr("stroke-linecap", "round")
                 .attr("fill", "none");
 
@@ -921,11 +979,11 @@ function initContextViz() {
 
             sortedVedas.forEach(({ veda, count, originalIdx }) => {
                 const petalIdx = originalIdx;
-                const minSize = 15;
-                const maxSize = 200;
+                const minSize = cHeight * 0.02;
+                const maxSize = cHeight * 0.25;
                 const sizeRatio = count / Math.max(maxCount, 1);
                 const petalHeight = (minSize + sizeRatio * (maxSize - minSize)) * scale;
-                const petalWidth = (5 + sizeRatio * 120) * scale;
+                const petalWidth = (cWidth * 0.005 + sizeRatio * cWidth * 0.12) * scale;
 
                 const petalAngles = [-150, -115, -65, -30];
                 const angle = petalAngles[petalIdx];
@@ -948,7 +1006,8 @@ function initContextViz() {
                     .attr("d", petalPath)
                     .attr("fill", "#F3DFE2")
                     .attr("stroke", "none")
-                    .attr("opacity", 0.9);
+                    .attr("opacity", 0.9)
+                    .style("pointer-events", "none");
 
                 const vedaSentences = (context.sentences || []).filter(s => s.veda === veda);
                 const totalLines = vedaSentences.length;
@@ -983,32 +1042,40 @@ function initContextViz() {
                         lineColor = "#8C052B";
                     }
 
+                    const originalStrokeWidth = Math.max(lineThickness, 1);
+                    const hoverStrokeWidth = originalStrokeWidth + 2;
+
                     petalGroup.append("path")
                         .attr("d", `M ${basePointX} ${basePointY}
                                     C ${ctrl1X} ${ctrl1Y}
                                       ${ctrl2X} ${ctrl2Y}
                                       ${tipPointX} ${tipPointY}`)
                         .attr("stroke", lineColor)
-                        .attr("stroke-width", lineThickness)
+                        .attr("stroke-width", originalStrokeWidth)
                         .attr("stroke-linecap", "round")
                         .attr("fill", "none")
                         .attr("opacity", 0.7)
                         .style("cursor", "pointer")
+                        .style("pointer-events", "stroke")
                         .on("mouseover", function(event) {
-                            d3.select(this).attr("opacity", 1).attr("stroke-width", lineThickness + 1);
+                            d3.select(this).attr("opacity", 1).attr("stroke-width", hoverStrokeWidth);
+                            const truthWord = extractTruthWords(sentence.text);
                             showTooltipAt(event, `<h3>${context.name}</h3>
                                        <p><strong>Veda:</strong> ${veda}</p>
-                                       <p><strong>Score:</strong> ${sentence.score.toFixed(2)}</p>
+                                       <p><strong>Context Score:</strong> ${sentence.score.toFixed(2)}</p>
+                                       <p><strong>Truth Word:</strong> <span class="truth-word">${truthWord}</span></p>
                                        <p>${sentence.text}</p>`);
                         })
                         .on("mouseout", function() {
-                            d3.select(this).attr("opacity", 0.7).attr("stroke-width", lineThickness);
+                            d3.select(this).attr("opacity", 0.7).attr("stroke-width", originalStrokeWidth);
                             hideTooltipNow();
                         })
                         .on("mousemove", function(event) {
+                            const truthWord = extractTruthWords(sentence.text);
                             showTooltipAt(event, `<h3>${context.name}</h3>
                                        <p><strong>Veda:</strong> ${veda}</p>
-                                       <p><strong>Score:</strong> ${sentence.score.toFixed(2)}</p>
+                                       <p><strong>Context Score:</strong> ${sentence.score.toFixed(2)}</p>
+                                       <p><strong>Truth Word:</strong> <span class="truth-word">${truthWord}</span></p>
                                        <p>${sentence.text}</p>`);
                         });
                 });
@@ -1017,10 +1084,34 @@ function initContextViz() {
             lotusGroup.append("circle")
                 .attr("cx", lotusX)
                 .attr("cy", lotusY)
-                .attr("r", 12 * scale)
+                .attr("r", cWidth * 0.012 * scale)
                 .attr("fill", "#f4d03f")
                 .attr("stroke", "#d4ac0d")
-                .attr("stroke-width", 1.5);
+                .attr("stroke-width", cWidth * 0.0015)
+                .style("cursor", "pointer")
+                .on("mouseover", function(event) {
+                    d3.select(this).attr("r", cWidth * 0.014 * scale);
+                    const tooltipHtml = `<h3>${context.name}</h3>
+                        <p><strong>Total Sentences:</strong> ${context.count || 0}</p>
+                        <p><strong>Rigveda:</strong> ${vedaCounts["Rigveda"]} sentences</p>
+                        <p><strong>Yajurveda:</strong> ${vedaCounts["Yajurveda"]} sentences</p>
+                        <p><strong>Samaveda:</strong> ${vedaCounts["Samaveda"]} sentences</p>
+                        <p><strong>Atharvaveda:</strong> ${vedaCounts["Atharvaveda"]} sentences</p>`;
+                    showTooltipAt(event, tooltipHtml);
+                })
+                .on("mouseout", function() {
+                    d3.select(this).attr("r", cWidth * 0.012 * scale);
+                    hideTooltipNow();
+                })
+                .on("mousemove", function(event) {
+                    const tooltipHtml = `<h3>${context.name}</h3>
+                        <p><strong>Total Sentences:</strong> ${context.count || 0}</p>
+                        <p><strong>Rigveda:</strong> ${vedaCounts["Rigveda"]} sentences</p>
+                        <p><strong>Yajurveda:</strong> ${vedaCounts["Yajurveda"]} sentences</p>
+                        <p><strong>Samaveda:</strong> ${vedaCounts["Samaveda"]} sentences</p>
+                        <p><strong>Atharvaveda:</strong> ${vedaCounts["Atharvaveda"]} sentences</p>`;
+                    showTooltipAt(event, tooltipHtml);
+                });
         });
 
     }).catch(error => {
